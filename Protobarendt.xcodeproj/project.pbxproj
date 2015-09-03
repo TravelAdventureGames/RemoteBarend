@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E14BB01B984AC300C295D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BAF1B984AC300C295D2 /* AppDelegate.swift */; };
+		68E14BB21B984AC300C295D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BB11B984AC300C295D2 /* ViewController.swift */; };
+		68E14BB51B984AC300C295D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BB31B984AC300C295D2 /* Main.storyboard */; };
+		68E14BB81B984AC300C295D2 /* Protobarendt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BB61B984AC300C295D2 /* Protobarendt.xcdatamodeld */; };
+		68E14BBA1B984AC300C295D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BB91B984AC300C295D2 /* Assets.xcassets */; };
+		68E14BBD1B984AC300C295D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */; };
+		68E14BC81B984AC300C295D2 /* ProtobarendtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BC71B984AC300C295D2 /* ProtobarendtTests.swift */; };
+		68E14BD31B984AC300C295D2 /* ProtobarendtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BD21B984AC300C295D2 /* ProtobarendtUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E14BC41B984AC300C295D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E14BA41B984AC300C295D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E14BAB1B984AC300C295D2;
+			remoteInfo = Protobarendt;
+		};
+		68E14BCF1B984AC300C295D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E14BA41B984AC300C295D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E14BAB1B984AC300C295D2;
+			remoteInfo = Protobarendt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E14BAC1B984AC300C295D2 /* Protobarendt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protobarendt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E14BAF1B984AC300C295D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68E14BB11B984AC300C295D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68E14BB41B984AC300C295D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E14BB71B984AC300C295D2 /* Protobarendt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Protobarendt.xcdatamodel; sourceTree = "<group>"; };
+		68E14BB91B984AC300C295D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E14BBC1B984AC300C295D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E14BBE1B984AC300C295D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E14BC31B984AC300C295D2 /* ProtobarendtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtobarendtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E14BC71B984AC300C295D2 /* ProtobarendtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobarendtTests.swift; sourceTree = "<group>"; };
+		68E14BC91B984AC300C295D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E14BCE1B984AC300C295D2 /* ProtobarendtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtobarendtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E14BD21B984AC300C295D2 /* ProtobarendtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobarendtUITests.swift; sourceTree = "<group>"; };
+		68E14BD41B984AC300C295D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E14BA91B984AC300C295D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BC01B984AC300C295D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BCB1B984AC300C295D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E14BA31B984AC300C295D2 = {
+			isa = PBXGroup;
+			children = (
+				68E14BAE1B984AC300C295D2 /* Protobarendt */,
+				68E14BC61B984AC300C295D2 /* ProtobarendtTests */,
+				68E14BD11B984AC300C295D2 /* ProtobarendtUITests */,
+				68E14BAD1B984AC300C295D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E14BAD1B984AC300C295D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E14BAC1B984AC300C295D2 /* Protobarendt.app */,
+				68E14BC31B984AC300C295D2 /* ProtobarendtTests.xctest */,
+				68E14BCE1B984AC300C295D2 /* ProtobarendtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E14BAE1B984AC300C295D2 /* Protobarendt */ = {
+			isa = PBXGroup;
+			children = (
+				68E14BAF1B984AC300C295D2 /* AppDelegate.swift */,
+				68E14BB11B984AC300C295D2 /* ViewController.swift */,
+				68E14BB31B984AC300C295D2 /* Main.storyboard */,
+				68E14BB91B984AC300C295D2 /* Assets.xcassets */,
+				68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */,
+				68E14BBE1B984AC300C295D2 /* Info.plist */,
+				68E14BB61B984AC300C295D2 /* Protobarendt.xcdatamodeld */,
+			);
+			path = Protobarendt;
+			sourceTree = "<group>";
+		};
+		68E14BC61B984AC300C295D2 /* ProtobarendtTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E14BC71B984AC300C295D2 /* ProtobarendtTests.swift */,
+				68E14BC91B984AC300C295D2 /* Info.plist */,
+			);
+			path = ProtobarendtTests;
+			sourceTree = "<group>";
+		};
+		68E14BD11B984AC300C295D2 /* ProtobarendtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68E14BD21B984AC300C295D2 /* ProtobarendtUITests.swift */,
+				68E14BD41B984AC300C295D2 /* Info.plist */,
+			);
+			path = ProtobarendtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E14BAB1B984AC300C295D2 /* Protobarendt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E14BD71B984AC300C295D2 /* Build configuration list for PBXNativeTarget "Protobarendt" */;
+			buildPhases = (
+				68E14BA81B984AC300C295D2 /* Sources */,
+				68E14BA91B984AC300C295D2 /* Frameworks */,
+				68E14BAA1B984AC300C295D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobarendt;
+			productName = Protobarendt;
+			productReference = 68E14BAC1B984AC300C295D2 /* Protobarendt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E14BC21B984AC300C295D2 /* ProtobarendtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E14BDA1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtTests" */;
+			buildPhases = (
+				68E14BBF1B984AC300C295D2 /* Sources */,
+				68E14BC01B984AC300C295D2 /* Frameworks */,
+				68E14BC11B984AC300C295D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E14BC51B984AC300C295D2 /* PBXTargetDependency */,
+			);
+			name = ProtobarendtTests;
+			productName = ProtobarendtTests;
+			productReference = 68E14BC31B984AC300C295D2 /* ProtobarendtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68E14BCD1B984AC300C295D2 /* ProtobarendtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E14BDD1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtUITests" */;
+			buildPhases = (
+				68E14BCA1B984AC300C295D2 /* Sources */,
+				68E14BCB1B984AC300C295D2 /* Frameworks */,
+				68E14BCC1B984AC300C295D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E14BD01B984AC300C295D2 /* PBXTargetDependency */,
+			);
+			name = ProtobarendtUITests;
+			productName = ProtobarendtUITests;
+			productReference = 68E14BCE1B984AC300C295D2 /* ProtobarendtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E14BA41B984AC300C295D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Martijn van Gogh";
+				TargetAttributes = {
+					68E14BAB1B984AC300C295D2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					68E14BC21B984AC300C295D2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 68E14BAB1B984AC300C295D2;
+					};
+					68E14BCD1B984AC300C295D2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 68E14BAB1B984AC300C295D2;
+					};
+				};
+			};
+			buildConfigurationList = 68E14BA71B984AC300C295D2 /* Build configuration list for PBXProject "Protobarendt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E14BA31B984AC300C295D2;
+			productRefGroup = 68E14BAD1B984AC300C295D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E14BAB1B984AC300C295D2 /* Protobarendt */,
+				68E14BC21B984AC300C295D2 /* ProtobarendtTests */,
+				68E14BCD1B984AC300C295D2 /* ProtobarendtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E14BAA1B984AC300C295D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E14BBD1B984AC300C295D2 /* LaunchScreen.storyboard in Resources */,
+				68E14BBA1B984AC300C295D2 /* Assets.xcassets in Resources */,
+				68E14BB51B984AC300C295D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BC11B984AC300C295D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BCC1B984AC300C295D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E14BA81B984AC300C295D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E14BB21B984AC300C295D2 /* ViewController.swift in Sources */,
+				68E14BB01B984AC300C295D2 /* AppDelegate.swift in Sources */,
+				68E14BB81B984AC300C295D2 /* Protobarendt.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BBF1B984AC300C295D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E14BC81B984AC300C295D2 /* ProtobarendtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E14BCA1B984AC300C295D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E14BD31B984AC300C295D2 /* ProtobarendtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E14BC51B984AC300C295D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E14BAB1B984AC300C295D2 /* Protobarendt */;
+			targetProxy = 68E14BC41B984AC300C295D2 /* PBXContainerItemProxy */;
+		};
+		68E14BD01B984AC300C295D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E14BAB1B984AC300C295D2 /* Protobarendt */;
+			targetProxy = 68E14BCF1B984AC300C295D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E14BB31B984AC300C295D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E14BB41B984AC300C295D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E14BBC1B984AC300C295D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E14BD51B984AC300C295D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E14BD61B984AC300C295D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E14BD81B984AC300C295D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Protobarendt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.Protobarendt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68E14BD91B984AC300C295D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Protobarendt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.Protobarendt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68E14BDB1B984AC300C295D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProtobarendtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.ProtobarendtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protobarendt.app/Protobarendt";
+			};
+			name = Debug;
+		};
+		68E14BDC1B984AC300C295D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProtobarendtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.ProtobarendtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protobarendt.app/Protobarendt";
+			};
+			name = Release;
+		};
+		68E14BDE1B984AC300C295D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProtobarendtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.ProtobarendtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Protobarendt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		68E14BDF1B984AC300C295D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProtobarendtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.ProtobarendtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Protobarendt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E14BA71B984AC300C295D2 /* Build configuration list for PBXProject "Protobarendt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E14BD51B984AC300C295D2 /* Debug */,
+				68E14BD61B984AC300C295D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E14BD71B984AC300C295D2 /* Build configuration list for PBXNativeTarget "Protobarendt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E14BD81B984AC300C295D2 /* Debug */,
+				68E14BD91B984AC300C295D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E14BDA1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E14BDB1B984AC300C295D2 /* Debug */,
+				68E14BDC1B984AC300C295D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E14BDD1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E14BDE1B984AC300C295D2 /* Debug */,
+				68E14BDF1B984AC300C295D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68E14BB61B984AC300C295D2 /* Protobarendt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68E14BB71B984AC300C295D2 /* Protobarendt.xcdatamodel */,
+			);
+			currentVersion = 68E14BB71B984AC300C295D2 /* Protobarendt.xcdatamodel */;
+			path = Protobarendt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68E14BA41B984AC300C295D2 /* Project object */;
+}
