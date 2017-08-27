@@ -7,14 +7,304 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680360AA1C1AFA2C00E2B6DA /* textGroter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680360A91C1AFA2C00E2B6DA /* textGroter.swift */; };
+		680360AE1C1EC98100E2B6DA /* Roeienriemen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 680360AD1C1EC98100E2B6DA /* Roeienriemen3.png */; };
+		680360B01C1ECA2100E2B6DA /* roeien riemen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 680360AF1C1ECA2100E2B6DA /* roeien riemen2.jpg */; };
+		6818A06F1BC2708A009D26B9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0681BC2708A009D26B9 /* Bolts.framework */; };
+		6818A0701BC2708A009D26B9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0691BC2708A009D26B9 /* Parse.framework */; };
+		6818A0711BC2708A009D26B9 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A06A1BC2708A009D26B9 /* ParseCrashReporting.framework */; };
+		6818A0721BC2708A009D26B9 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A06B1BC2708A009D26B9 /* ParseFacebookUtils.framework */; };
+		6818A0731BC2708A009D26B9 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A06C1BC2708A009D26B9 /* ParseFacebookUtilsV4.framework */; };
+		6818A0741BC2708A009D26B9 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A06D1BC2708A009D26B9 /* ParseTwitterUtils.framework */; };
+		6818A0751BC2708A009D26B9 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A06E1BC2708A009D26B9 /* ParseUI.framework */; };
+		6818A0771BC2717E009D26B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0761BC2717E009D26B9 /* AudioToolbox.framework */; };
+		6818A0791BC27190009D26B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0781BC27190009D26B9 /* CFNetwork.framework */; };
+		6818A07B1BC271AC009D26B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A07A1BC271AC009D26B9 /* libz.tbd */; };
+		6818A07D1BC271BB009D26B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A07C1BC271BB009D26B9 /* MobileCoreServices.framework */; };
+		6818A07F1BC271D3009D26B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A07E1BC271D3009D26B9 /* QuartzCore.framework */; };
+		6818A0811BC271DA009D26B9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0801BC271DA009D26B9 /* Security.framework */; };
+		6818A0831BC271E8009D26B9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0821BC271E8009D26B9 /* StoreKit.framework */; };
+		6818A0851BC271FA009D26B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0841BC271FA009D26B9 /* SystemConfiguration.framework */; };
+		6818A0871BC27219009D26B9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818A0861BC27219009D26B9 /* libsqlite3.tbd */; };
+		6818A0961BC2B617009D26B9 /* TeamnaamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818A0951BC2B617009D26B9 /* TeamnaamViewController.swift */; };
+		68411FD01C046FCC00DD2D9D /* Aaltje.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68411FCD1C046FCC00DD2D9D /* Aaltje.mp3 */; };
+		68411FD11C046FCC00DD2D9D /* Barendt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68411FCE1C046FCC00DD2D9D /* Barendt.mp3 */; };
+		68411FD21C046FCC00DD2D9D /* Griet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68411FCF1C046FCC00DD2D9D /* Griet.mp3 */; };
+		68411FD41C047DFD00DD2D9D /* Aaltje.png in Resources */ = {isa = PBXBuildFile; fileRef = 68411FD31C047DFD00DD2D9D /* Aaltje.png */; };
+		68411FD61C04C60A00DD2D9D /* basisAaltje.png in Resources */ = {isa = PBXBuildFile; fileRef = 68411FD51C04C60A00DD2D9D /* basisAaltje.png */; };
+		68411FD91C04C7E100DD2D9D /* aaltjeMessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68411FD81C04C7E100DD2D9D /* aaltjeMessView.xib */; };
+		68411FDB1C04C85900DD2D9D /* aaltjeMessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411FDA1C04C85900DD2D9D /* aaltjeMessView.swift */; };
+		684571881C11A96700650349 /* MyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684571871C11A96700650349 /* MyPlayer.swift */; };
+		6845718B1C11B46600650349 /* routeAanwijzing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845718A1C11B46600650349 /* routeAanwijzing.swift */; };
+		6845718D1C11BCBD00650349 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6845718C1C11BCBD00650349 /* error.wav */; };
+		6845718F1C11BD4B00650349 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6845718E1C11BD4B00650349 /* win.wav */; };
+		684571911C11D4E700650349 /* cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 684571901C11D4E700650349 /* cheering.mp3 */; };
+		684571931C11DD6200650349 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 684571921C11DD6200650349 /* lose.mp3 */; };
+		684867521BB5743B00C0A92B /* NaarHetDamrakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684867511BB5743B00C0A92B /* NaarHetDamrakViewController.swift */; };
+		684867541BB6B1AB00C0A92B /* ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 684867531BB6B1AB00C0A92B /* ting.wav */; };
+		684867561BB6CB7800C0A92B /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684867551BB6CB7800C0A92B /* background2.jpg */; };
+		6848675A1BB6CCB600C0A92B /* background6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684867571BB6CCB600C0A92B /* background6.jpg */; };
+		6848675B1BB6CCB600C0A92B /* background5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684867581BB6CCB600C0A92B /* background5.jpg */; };
+		6848675C1BB6CCB600C0A92B /* background4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684867591BB6CCB600C0A92B /* background4.jpg */; };
+		685BABDC1BEA4EB2003FF65A /* woosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 685BABDB1BEA4EB2003FF65A /* woosh.wav */; };
+		685BABEB1BEA9640003FF65A /* api3.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABE61BEA9640003FF65A /* api3.png */; };
+		685BABEC1BEA9640003FF65A /* api2.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABE71BEA9640003FF65A /* api2.png */; };
+		685BABEE1BEA9640003FF65A /* api1.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABE91BEA9640003FF65A /* api1.png */; };
+		685BABF41BEA97DA003FF65A /* api4.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABF11BEA97DA003FF65A /* api4.png */; };
+		685BABF91BEA9DDA003FF65A /* teamnaam1.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABF51BEA9DDA003FF65A /* teamnaam1.png */; };
+		685BABFA1BEA9DDA003FF65A /* teamnaam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABF61BEA9DDA003FF65A /* teamnaam2.png */; };
+		685BABFB1BEA9DDA003FF65A /* teamfoto2.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABF71BEA9DDA003FF65A /* teamfoto2.png */; };
+		685BABFC1BEA9DDA003FF65A /* teamfoto1.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BABF81BEA9DDA003FF65A /* teamfoto1.png */; };
+		685BAC061BF09DF6003FF65A /* LiefdesbrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685BAC051BF09DF6003FF65A /* LiefdesbrugViewController.swift */; };
+		685BAC0D1BF0A2E9003FF65A /* brugMess3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC091BF0A2E9003FF65A /* brugMess3.jpg */; };
+		685BAC0E1BF0A2E9003FF65A /* brugMess2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC0A1BF0A2E9003FF65A /* brugMess2.jpg */; };
+		685BAC0F1BF0A2E9003FF65A /* brugMess1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC0B1BF0A2E9003FF65A /* brugMess1.jpg */; };
+		685BAC101BF0A2E9003FF65A /* staalmeestersbrug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC0C1BF0A2E9003FF65A /* staalmeestersbrug.jpg */; };
+		685BAC1E1BF0A912003FF65A /* aaltjeschrMess3.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC1A1BF0A912003FF65A /* aaltjeschrMess3.png */; };
+		685BAC1F1BF0A912003FF65A /* aaltjeschrMess2.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC1B1BF0A912003FF65A /* aaltjeschrMess2.png */; };
+		685BAC201BF0A912003FF65A /* aaltjeschrMess1.png in Resources */ = {isa = PBXBuildFile; fileRef = 685BAC1C1BF0A912003FF65A /* aaltjeschrMess1.png */; };
+		687BB9091BF23C6E002937F1 /* opmaakButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BB9081BF23C6E002937F1 /* opmaakButton.swift */; };
+		687BB90E1BF24781002937F1 /* ScoreLabeltje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BB90D1BF24781002937F1 /* ScoreLabeltje.swift */; };
+		687BB9111BF256D3002937F1 /* distanceLabeltje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BB9101BF256D3002937F1 /* distanceLabeltje.swift */; };
+		687EC54E1BCD1D1A00062644 /* amsterdam1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 687EC54B1BCD1D1A00062644 /* amsterdam1.jpg */; };
+		687EC5501BCD1D1A00062644 /* amsterdam2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 687EC54D1BCD1D1A00062644 /* amsterdam2.jpg */; };
+		687EC5531BCD21C100062644 /* naarScheepvaartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687EC5521BCD21C100062644 /* naarScheepvaartViewController.swift */; };
+		687EC5551BCD264100062644 /* glazenUitlegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687EC5541BCD264100062644 /* glazenUitlegViewController.swift */; };
+		687EC5591BCD2CB900062644 /* glazen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 687EC5561BCD2CB900062644 /* glazen3.jpg */; };
+		687EC55F1BCE553C00062644 /* scheeps1.png in Resources */ = {isa = PBXBuildFile; fileRef = 687EC55C1BCE553C00062644 /* scheeps1.png */; };
+		687EC5601BCE553C00062644 /* scheeps2.png in Resources */ = {isa = PBXBuildFile; fileRef = 687EC55D1BCE553C00062644 /* scheeps2.png */; };
+		687EC5611BCE553C00062644 /* scheeps3.png in Resources */ = {isa = PBXBuildFile; fileRef = 687EC55E1BCE553C00062644 /* scheeps3.png */; };
+		6898E63F1BCBBE420072DE05 /* gezegdeFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898E63E1BCBBE420072DE05 /* gezegdeFotoViewController.swift */; };
+		6898E6411BCBD5660072DE05 /* GezegdeRadenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898E6401BCBD5660072DE05 /* GezegdeRadenViewController.swift */; };
+		6898E6471BCBF9F40072DE05 /* tweedeGezegdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898E6461BCBF9F40072DE05 /* tweedeGezegdeViewController.swift */; };
+		6898E64F1BCD12440072DE05 /* deAmsterdamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898E64E1BCD12440072DE05 /* deAmsterdamViewController.swift */; };
+		689D93C61BB976A000D98060 /* Damschavotbig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 689D93C41BB976A000D98060 /* Damschavotbig.jpg */; };
+		689D93C71BB976A000D98060 /* Damschavotclose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 689D93C51BB976A000D98060 /* Damschavotclose.jpg */; };
+		689D940B1BB997F400D98060 /* damrak1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 689D94081BB997F400D98060 /* damrak1.jpg */; };
+		689D940C1BB997F400D98060 /* damrak2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 689D94091BB997F400D98060 /* damrak2.jpg */; };
+		689D940D1BB997F400D98060 /* damrak3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 689D940A1BB997F400D98060 /* damrak3.jpg */; };
+		689D940F1BBACCF000D98060 /* DamrakOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D940E1BBACCF000D98060 /* DamrakOpdrachtViewController.swift */; };
+		68A0D7371BB164AF0077ECF2 /* TestjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0D7361BB164AF0077ECF2 /* TestjeViewController.swift */; };
+		68A0D73F1BB3507F0077ECF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0D73E1BB3507F0077ECF2 /* CoreGraphics.framework */; };
+		68A0D7411BB406670077ECF2 /* CameraOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0D7401BB406670077ECF2 /* CameraOpdrachtViewController.swift */; };
+		68A2D0FA1C05DDF700A29438 /* italy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D0F61C05DDF700A29438 /* italy.gif */; };
+		68A2D0FB1C05DDF700A29438 /* nederland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D0F71C05DDF700A29438 /* nederland.jpg */; };
+		68A2D0FC1C05DDF700A29438 /* iran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D0F81C05DDF700A29438 /* iran.jpg */; };
+		68A2D0FD1C05DDF700A29438 /* ethiopia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D0F91C05DDF700A29438 /* ethiopia.jpg */; };
+		68A2D1001C062CC900A29438 /* barendtMessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2D0FF1C062CC900A29438 /* barendtMessView.swift */; };
+		68A2D1021C062CE200A29438 /* barendtMessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D1011C062CE200A29438 /* barendtMessView.xib */; };
+		68A2D1041C062E5000A29438 /* barendtLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D1031C062E5000A29438 /* barendtLeeg.png */; };
+		68A2D1061C07304E00A29438 /* balloons.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D1051C07304E00A29438 /* balloons.png */; };
+		68A2D10A1C07517600A29438 /* overOostindischViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2D1091C07517600A29438 /* overOostindischViewController.swift */; };
+		68A2D10D1C07559200A29438 /* indisch2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D10B1C07559200A29438 /* indisch2.jpg */; };
+		68A2D10E1C07559200A29438 /* indisch1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A2D10C1C07559200A29438 /* indisch1.jpg */; };
+		68AB21711BE153E200C8E37C /* balk02.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AB216F1BE153E200C8E37C /* balk02.png */; };
+		68AB21721BE153E200C8E37C /* balk01.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21701BE153E200C8E37C /* balk01.png */; };
+		68AB21741BE176C900C8E37C /* balk011.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21731BE176C900C8E37C /* balk011.png */; };
+		68AB21791BE3A12600C8E37C /* uitlegPaleisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB21781BE3A12600C8E37C /* uitlegPaleisViewController.swift */; };
+		68AB21821BE699F200C8E37C /* benedenbalk01.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21801BE699F200C8E37C /* benedenbalk01.png */; };
+		68AB21831BE699F200C8E37C /* bovenbalk01.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21811BE699F200C8E37C /* bovenbalk01.png */; };
+		68AB21851BE6B7EE00C8E37C /* aaltjeZiek1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21841BE6B7EE00C8E37C /* aaltjeZiek1.jpg */; };
+		68AB21871BE6CEAC00C8E37C /* messSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68AB21861BE6CEAC00C8E37C /* messSound.wav */; };
+		68BCCE2B1BDE21B100C14ED4 /* naarSluiswachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCCE2A1BDE21B100C14ED4 /* naarSluiswachtViewController.swift */; };
+		68BCCE2E1BDE25FB00C14ED4 /* uitlegSluyswachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCCE2D1BDE25FB00C14ED4 /* uitlegSluyswachtViewController.swift */; };
+		68BCCE331BDE2F1100C14ED4 /* sluys3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BCCE301BDE2F1100C14ED4 /* sluys3.jpg */; };
+		68BCCE341BDE2F1100C14ED4 /* sluys2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BCCE311BDE2F1100C14ED4 /* sluys2.jpg */; };
+		68BCCE351BDE2F1100C14ED4 /* sluys1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BCCE321BDE2F1100C14ED4 /* sluys1.jpg */; };
+		68BCCE371BDE302F00C14ED4 /* opdrachtSluysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCCE361BDE302F00C14ED4 /* opdrachtSluysViewController.swift */; };
+		68BCCE3F1BDE449700C14ED4 /* opdracht2SluysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCCE3E1BDE449700C14ED4 /* opdracht2SluysViewController.swift */; };
+		68BCCE471BDE657200C14ED4 /* HortusuitlegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCCE461BDE657200C14ED4 /* HortusuitlegViewController.swift */; };
+		68BCCECB1BE1136200C14ED4 /* balk.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BCCECA1BE1136200C14ED4 /* balk.png */; };
+		68D549941BA70CEE00599702 /* galgenveld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68D549931BA70CEE00599702 /* galgenveld.jpg */; };
+		68DC21061C216BD30026209A /* pijlrechts.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DC21051C216BD30026209A /* pijlrechts.png */; };
+		68DC21081C216EC00026209A /* bestestuurlui.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DC21071C216EC00026209A /* bestestuurlui.png */; };
+		68DC210A1C2174280026209A /* Roeienriemen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DC21091C2174280026209A /* Roeienriemen4.png */; };
+		68DC210C1C2177D70026209A /* bestestuurlui2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DC210B1C2177D70026209A /* bestestuurlui2.png */; };
+		68DD79651C46C1440040C8DF /* GezegdeAntw2GoedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD79641C46C1440040C8DF /* GezegdeAntw2GoedViewController.swift */; };
+		68DD79671C46C3550040C8DF /* Gezegde2Fout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD79661C46C3550040C8DF /* Gezegde2Fout.swift */; };
+		68DD79691C47A3E60040C8DF /* GezegdeAntw2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD79681C47A3E60040C8DF /* GezegdeAntw2VC.swift */; };
+		68DD796B1C4D0A920040C8DF /* Antwoord1DamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD796A1C4D0A920040C8DF /* Antwoord1DamViewController.swift */; };
+		68DD796D1C4D0AC70040C8DF /* Antwoord2DamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD796C1C4D0AC70040C8DF /* Antwoord2DamViewController.swift */; };
+		68DD79711C4D10750040C8DF /* paleis1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68DD796F1C4D10750040C8DF /* paleis1.jpeg */; };
+		68DD79741C4D1BFF0040C8DF /* damSchavot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DD79731C4D1BFF0040C8DF /* damSchavot.jpg */; };
+		68DE16271BF9F680005B20CC /* grietMessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE16261BF9F680005B20CC /* grietMessView.swift */; };
+		68DE16291BF9F6AD005B20CC /* grietMessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE16281BF9F6AD005B20CC /* grietMessView.xib */; };
+		68DE162C1BFA0F99005B20CC /* amsterdam1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DE162A1BFA0F99005B20CC /* amsterdam1.png */; };
+		68DE162D1BFA0F99005B20CC /* amsterdam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DE162B1BFA0F99005B20CC /* amsterdam2.png */; };
+		68DE162F1BFA14DF005B20CC /* kaneelst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE162E1BFA14DF005B20CC /* kaneelst.jpg */; };
+		68DE16311BFA1EFD005B20CC /* MapOostindischViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE16301BFA1EFD005B20CC /* MapOostindischViewController.swift */; };
+		68DE167F1BFC9277005B20CC /* UitlegOostindischViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE167E1BFC9277005B20CC /* UitlegOostindischViewController.swift */; };
+		68DE16811BFCABBA005B20CC /* laatsteOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE16801BFCABBA005B20CC /* laatsteOpdrachtViewController.swift */; };
+		68DE16831BFCCEA4005B20CC /* kleinstehuis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE16821BFCCEA4005B20CC /* kleinstehuis.jpg */; };
+		68DE16871BFCD105005B20CC /* loseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE16861BFCD105005B20CC /* loseViewController.swift */; };
+		68DF0F651BC3C1E000464392 /* PuntenAepjenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF0F641BC3C1E000464392 /* PuntenAepjenViewController.swift */; };
+		68DF0F721BC4190D00464392 /* MapSchreiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF0F711BC4190D00464392 /* MapSchreiersViewController.swift */; };
+		68DF0F741BC5285C00464392 /* SchreiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF0F731BC5285C00464392 /* SchreiersViewController.swift */; };
+		68DF0F7F1BC6643200464392 /* ScheepskameelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF0F7E1BC6643200464392 /* ScheepskameelAnimationViewController.swift */; };
+		68DF36471BA04EA6009D5141 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36461BA04EA6009D5141 /* stopbutton.png */; };
+		68DF36491BA05901009D5141 /* EntrepotOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF36481BA05901009D5141 /* EntrepotOpdrachtViewController.swift */; };
+		68DF364D1BA06445009D5141 /* go_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DF364C1BA06445009D5141 /* go_button.png */; };
+		68DF364F1BA066A3009D5141 /* gobutto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF364E1BA066A3009D5141 /* gobutto.jpg */; };
+		68DF36511BA066B7009D5141 /* gobut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36501BA066B7009D5141 /* gobut.jpg */; };
+		68DF36531BA068A0009D5141 /* go-button-1934443.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36521BA068A0009D5141 /* go-button-1934443.png */; };
+		68DF36551BA1BAC5009D5141 /* schreiersOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF36541BA1BAC5009D5141 /* schreiersOpdrachtViewController.swift */; };
+		68DF36571BA1C06B009D5141 /* schedelboring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36561BA1C06B009D5141 /* schedelboring.jpg */; };
+		68DF365D1BA1C080009D5141 /* kompres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36581BA1C080009D5141 /* kompres.jpg */; };
+		68DF365E1BA1C080009D5141 /* spalken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF36591BA1C080009D5141 /* spalken.jpg */; };
+		68DF365F1BA1C080009D5141 /* amputatie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF365A1BA1C080009D5141 /* amputatie.jpg */; };
+		68DF36601BA1C080009D5141 /* dichtbranden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF365B1BA1C080009D5141 /* dichtbranden.jpg */; };
+		68DF36611BA1C080009D5141 /* aderlaten.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68DF365C1BA1C080009D5141 /* aderlaten.gif */; };
+		68DF36631BA307B9009D5141 /* hangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF36621BA307B9009D5141 /* hangmanViewController.swift */; };
+		68DF86A71BC69C80001CB687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DF86A61BC69C80001CB687 /* Main.storyboard */; };
+		68DF86AF1BC6A83B001CB687 /* naarScheepskameelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF86AE1BC6A83B001CB687 /* naarScheepskameelViewController.swift */; };
+		68DF86B21BC7B5A8001CB687 /* mapGalgenveldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF86B11BC7B5A8001CB687 /* mapGalgenveldViewController.swift */; };
+		68DF86B41BC7C164001CB687 /* GalgenveldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF86B31BC7C164001CB687 /* GalgenveldViewController.swift */; };
+		68DF86B91BC7C44B001CB687 /* galgveld3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF86B61BC7C44B001CB687 /* galgveld3.jpg */; };
+		68DF86BA1BC7C44B001CB687 /* galgveld2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF86B71BC7C44B001CB687 /* galgveld2.jpg */; };
+		68DF86BB1BC7C44B001CB687 /* galgveld1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF86B81BC7C44B001CB687 /* galgveld1.jpg */; };
+		68DF86BD1BC7D7EC001CB687 /* naarDeamsterdamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF86BC1BC7D7EC001CB687 /* naarDeamsterdamViewController.swift */; };
+		68DF86C01BCBAB9E001CB687 /* GezegdeCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF86BF1BCBAB9E001CB687 /* GezegdeCameraViewController.swift */; };
+		68DF9BE01C1823AC004CF456 /* Kaneel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BDF1C1823AC004CF456 /* Kaneel.jpg */; };
+		68DF9BE51C1827C5004CF456 /* Kruidnagel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BE31C1827C5004CF456 /* Kruidnagel.jpg */; };
+		68DF9BE61C1827C5004CF456 /* Peper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BE41C1827C5004CF456 /* Peper.jpg */; };
+		68DF9BE81C182841004CF456 /* Foelie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BE71C182841004CF456 /* Foelie.jpg */; };
+		68DF9BEA1C182B10004CF456 /* Gember.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BE91C182B10004CF456 /* Gember.jpg */; };
+		68DF9BEC1C182D25004CF456 /* Nootmuskaat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DF9BEB1C182D25004CF456 /* Nootmuskaat.jpg */; };
+		68E050801BD0FD4A0070FDC3 /* naarOosterkerkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0507F1BD0FD4A0070FDC3 /* naarOosterkerkViewController.swift */; };
+		68E050831BD100070070FDC3 /* oosterkerkUitlegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E050821BD100070070FDC3 /* oosterkerkUitlegViewController.swift */; };
+		68E050851BD12CBD0070FDC3 /* beginSchermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E050841BD12CBD0070FDC3 /* beginSchermViewController.swift */; };
+		68E0516A1BD6893A0070FDC3 /* oosterkerk2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051671BD6893A0070FDC3 /* oosterkerk2.jpg */; };
+		68E0516B1BD6893A0070FDC3 /* oosterkerk3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051681BD6893A0070FDC3 /* oosterkerk3.jpg */; };
+		68E0516C1BD6893A0070FDC3 /* oosterkerk1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051691BD6893A0070FDC3 /* oosterkerk1.jpg */; };
+		68E0516E1BD68A600070FDC3 /* oosterkerkOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0516D1BD68A600070FDC3 /* oosterkerkOpdrachtViewController.swift */; };
+		68E051701BD6BE210070FDC3 /* NaarEntrepotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0516F1BD6BE210070FDC3 /* NaarEntrepotViewController.swift */; };
+		68E051731BD6C2530070FDC3 /* entrpotUitlegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E051721BD6C2530070FDC3 /* entrpotUitlegViewController.swift */; };
+		68E051751BD8C98F0070FDC3 /* naarHortusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E051741BD8C98F0070FDC3 /* naarHortusViewController.swift */; };
+		68E0518D1BD8D9000070FDC3 /* locationgedaan.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051771BD8D8FF0070FDC3 /* locationgedaan.png */; };
+		68E0518F1BD8D9000070FDC3 /* location20.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051791BD8D8FF0070FDC3 /* location20.png */; };
+		68E051901BD8D9000070FDC3 /* location19.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517A1BD8D8FF0070FDC3 /* location19.png */; };
+		68E051911BD8D9000070FDC3 /* location18.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517B1BD8D8FF0070FDC3 /* location18.png */; };
+		68E051921BD8D9000070FDC3 /* location17.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517C1BD8D8FF0070FDC3 /* location17.png */; };
+		68E051931BD8D9000070FDC3 /* location16.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517D1BD8D8FF0070FDC3 /* location16.png */; };
+		68E051941BD8D9000070FDC3 /* location15.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517E1BD8D8FF0070FDC3 /* location15.png */; };
+		68E051951BD8D9000070FDC3 /* location14.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0517F1BD8D8FF0070FDC3 /* location14.png */; };
+		68E051961BD8D9000070FDC3 /* location13.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051801BD8D8FF0070FDC3 /* location13.png */; };
+		68E051971BD8D9000070FDC3 /* location12.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051811BD8D8FF0070FDC3 /* location12.png */; };
+		68E051981BD8D9000070FDC3 /* location11.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051821BD8D8FF0070FDC3 /* location11.png */; };
+		68E051991BD8D9000070FDC3 /* location10.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051831BD8D8FF0070FDC3 /* location10.png */; };
+		68E0519A1BD8D9000070FDC3 /* location9.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051841BD8D8FF0070FDC3 /* location9.png */; };
+		68E0519B1BD8D9000070FDC3 /* location8.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051851BD8D8FF0070FDC3 /* location8.png */; };
+		68E0519C1BD8D9000070FDC3 /* location7.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051861BD8D8FF0070FDC3 /* location7.png */; };
+		68E0519D1BD8D9000070FDC3 /* location6.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051871BD8D8FF0070FDC3 /* location6.png */; };
+		68E0519E1BD8D9000070FDC3 /* location5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051881BD8D8FF0070FDC3 /* location5.png */; };
+		68E0519F1BD8D9000070FDC3 /* location4.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051891BD8D8FF0070FDC3 /* location4.png */; };
+		68E051A01BD8D9000070FDC3 /* location3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0518A1BD8D8FF0070FDC3 /* location3.png */; };
+		68E051A11BD8D9000070FDC3 /* location2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0518B1BD8D8FF0070FDC3 /* location2.png */; };
+		68E051A21BD8D9000070FDC3 /* location1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0518C1BD8D8FF0070FDC3 /* location1.png */; };
+		68E051A41BDA325F0070FDC3 /* ChirurgijnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E051A31BDA325F0070FDC3 /* ChirurgijnViewController.swift */; };
+		68E051A61BDA3BC50070FDC3 /* aaltje.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051A51BDA3BC50070FDC3 /* aaltje.jpg */; };
+		68E051BB1BDA74330070FDC3 /* entrepot3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051B81BDA74330070FDC3 /* entrepot3.jpg */; };
+		68E051BC1BDA74330070FDC3 /* entrepot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051B91BDA74330070FDC3 /* entrepot2.jpg */; };
+		68E051BD1BDA74330070FDC3 /* entrepot1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E051BA1BDA74330070FDC3 /* entrepot1.jpg */; };
+		68E051D91BDACA380070FDC3 /* hang1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D21BDACA380070FDC3 /* hang1.png */; };
+		68E051DA1BDACA380070FDC3 /* hang2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D31BDACA380070FDC3 /* hang2.png */; };
+		68E051DB1BDACA380070FDC3 /* hang3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D41BDACA380070FDC3 /* hang3.png */; };
+		68E051DC1BDACA380070FDC3 /* hang4.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D51BDACA380070FDC3 /* hang4.png */; };
+		68E051DD1BDACA380070FDC3 /* hang5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D61BDACA380070FDC3 /* hang5.png */; };
+		68E051DE1BDACA380070FDC3 /* hang6.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D71BDACA380070FDC3 /* hang6.png */; };
+		68E051DF1BDACA380070FDC3 /* hang7.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E051D81BDACA380070FDC3 /* hang7.png */; };
+		68E0DEDF1BF33FE500B79CC6 /* schreiers1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEDE1BF33FE500B79CC6 /* schreiers1.png */; };
+		68E0DEE11BF3478400B79CC6 /* reis1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEE01BF3478400B79CC6 /* reis1.png */; };
+		68E0DEE31BF34BD000B79CC6 /* scheepskameel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEE21BF34BD000B79CC6 /* scheepskameel1.png */; };
+		68E0DEE51BF34F4000B79CC6 /* beginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0DEE41BF34F4000B79CC6 /* beginViewController.swift */; };
+		68E0DEE91BF354A700B79CC6 /* barendtkameel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEE61BF354A700B79CC6 /* barendtkameel1.png */; };
+		68E0DEEA1BF354A700B79CC6 /* barendtkameel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEE71BF354A700B79CC6 /* barendtkameel3.png */; };
+		68E0DEEB1BF354A700B79CC6 /* barendtkameel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEE81BF354A700B79CC6 /* barendtkameel2.png */; };
+		68E0DEF01BF35EA900B79CC6 /* Dam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEED1BF35EA900B79CC6 /* Dam2.png */; };
+		68E0DEF11BF35EA900B79CC6 /* Dam1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEEE1BF35EA900B79CC6 /* Dam1.png */; };
+		68E0DEF21BF35EA900B79CC6 /* Dam3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEEF1BF35EA900B79CC6 /* Dam3.png */; };
+		68E0DEF41BF3730A00B79CC6 /* barendtziek.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEF31BF3730A00B79CC6 /* barendtziek.png */; };
+		68E0DEF61BF3764800B79CC6 /* aaltjeschrGoed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEF51BF3764800B79CC6 /* aaltjeschrGoed.png */; };
+		68E0DEF81BF3778400B79CC6 /* aaltjeschrFout.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEF71BF3778400B79CC6 /* aaltjeschrFout.png */; };
+		68E0DEFA1BF37AA800B79CC6 /* scheurbuik.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEF91BF37AA800B79CC6 /* scheurbuik.png */; };
+		68E0DEFD1BF3CD2500B79CC6 /* textLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0DEFC1BF3CD2500B79CC6 /* textLabel.swift */; };
+		68E0DEFF1BF4AC0C00B79CC6 /* glazen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DEFE1BF4AC0C00B79CC6 /* glazen2.jpg */; };
+		68E0DF021BF4C9BA00B79CC6 /* hortus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF001BF4C9BA00B79CC6 /* hortus2.jpg */; };
+		68E0DF031BF4C9BA00B79CC6 /* hortus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF011BF4C9BA00B79CC6 /* hortus1.jpg */; };
+		68E0DF051BF4CC4300B79CC6 /* hortusOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0DF041BF4CC4300B79CC6 /* hortusOpdrachtViewController.swift */; };
+		68E0DF091BF4D0FC00B79CC6 /* koffie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF061BF4D0FC00B79CC6 /* koffie3.jpg */; };
+		68E0DF0A1BF4D0FC00B79CC6 /* koffie2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF071BF4D0FC00B79CC6 /* koffie2.png */; };
+		68E0DF0B1BF4D0FC00B79CC6 /* koffie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF081BF4D0FC00B79CC6 /* koffie1.jpg */; };
+		68E0DF0D1BF8BC0E00B79CC6 /* grietLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E0DF0C1BF8BC0E00B79CC6 /* grietLeeg.png */; };
+		68E0DF101BF8BC8D00B79CC6 /* messLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0DF0F1BF8BC8D00B79CC6 /* messLabel.swift */; };
 		68E14BB01B984AC300C295D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BAF1B984AC300C295D2 /* AppDelegate.swift */; };
-		68E14BB21B984AC300C295D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BB11B984AC300C295D2 /* ViewController.swift */; };
-		68E14BB51B984AC300C295D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BB31B984AC300C295D2 /* Main.storyboard */; };
 		68E14BB81B984AC300C295D2 /* Protobarendt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BB61B984AC300C295D2 /* Protobarendt.xcdatamodeld */; };
 		68E14BBA1B984AC300C295D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BB91B984AC300C295D2 /* Assets.xcassets */; };
 		68E14BBD1B984AC300C295D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */; };
 		68E14BC81B984AC300C295D2 /* ProtobarendtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BC71B984AC300C295D2 /* ProtobarendtTests.swift */; };
 		68E14BD31B984AC300C295D2 /* ProtobarendtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14BD21B984AC300C295D2 /* ProtobarendtUITests.swift */; };
+		68E14BE61B98672D00C295D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E14BE51B98672D00C295D2 /* AVFoundation.framework */; };
+		68E14C731B9881D800C295D2 /* achtergrond.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C721B9881D800C295D2 /* achtergrond.png */; };
+		68E14C751B9883E100C295D2 /* Damrakaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C741B9883E100C295D2 /* Damrakaudio.mp3 */; };
+		68E14C7B1B9887B700C295D2 /* DamrakMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14C7A1B9887B700C295D2 /* DamrakMapViewController.swift */; };
+		68E14C7D1B988F9B00C295D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E14C7C1B988F9B00C295D2 /* CoreLocation.framework */; };
+		68E14C811B9D825700C295D2 /* flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C801B9D825700C295D2 /* flag.jpg */; };
+		68E14C831B9D86AB00C295D2 /* flagblue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C821B9D86AB00C295D2 /* flagblue.jpg */; };
+		68E14C851B9D928700C295D2 /* ScheepskameelMultipleChoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14C841B9D928700C295D2 /* ScheepskameelMultipleChoiceController.swift */; };
+		68E14C871B9DB03B00C295D2 /* barendt.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C861B9DB03B00C295D2 /* barendt.png */; };
+		68E14C891B9DC29300C295D2 /* scheepskameelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14C881B9DC29300C295D2 /* scheepskameelViewController.swift */; };
+		68E14C8B1B9DC53700C295D2 /* scheepskameel.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C8A1B9DC53700C295D2 /* scheepskameel.png */; };
+		68E14C8F1B9DD0D300C295D2 /* scheepskameelfoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C8E1B9DD0D300C295D2 /* scheepskameelfoto.jpg */; };
+		68E14C911B9DD80C00C295D2 /* scheepsAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14C901B9DD80C00C295D2 /* scheepsAudioViewController.swift */; };
+		68E14C9A1B9EF08200C295D2 /* hourglassnew8.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C921B9EF08200C295D2 /* hourglassnew8.png */; };
+		68E14C9B1B9EF08200C295D2 /* hourglassnew7.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C931B9EF08200C295D2 /* hourglassnew7.png */; };
+		68E14C9D1B9EF08200C295D2 /* hourglassnew5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C951B9EF08200C295D2 /* hourglassnew5.png */; };
+		68E14C9E1B9EF08200C295D2 /* hourglassnew4.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C961B9EF08200C295D2 /* hourglassnew4.png */; };
+		68E14C9F1B9EF08200C295D2 /* hourglassnew3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C971B9EF08200C295D2 /* hourglassnew3.png */; };
+		68E14CA01B9EF08200C295D2 /* hourglassnew2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C981B9EF08200C295D2 /* hourglassnew2.png */; };
+		68E14CA11B9EF08200C295D2 /* hourglassnew1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14C991B9EF08200C295D2 /* hourglassnew1.png */; };
+		68E14CA31B9EF0E200C295D2 /* hourglassnew6.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14CA21B9EF0E200C295D2 /* hourglassnew6.png */; };
+		68E14CA51B9EF65600C295D2 /* GlazenslaanTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E14CA41B9EF65600C295D2 /* GlazenslaanTimerViewController.swift */; };
+		68E14CA71BA044FB00C295D2 /* startbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E14CA61BA044FB00C295D2 /* startbutton.png */; };
+		68E150F61C3FF58D0018A910 /* vraag12.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150F01C3FF58D0018A910 /* vraag12.png */; };
+		68E150F71C3FF58D0018A910 /* vraag13.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150F11C3FF58D0018A910 /* vraag13.png */; };
+		68E150F81C3FF58D0018A910 /* vraag21.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150F21C3FF58D0018A910 /* vraag21.png */; };
+		68E150F91C3FF58D0018A910 /* vraag22.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150F31C3FF58D0018A910 /* vraag22.png */; };
+		68E150FA1C3FF58D0018A910 /* vraag23.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150F41C3FF58D0018A910 /* vraag23.png */; };
+		68E150FC1C3FF59D0018A910 /* vraag1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150FB1C3FF59D0018A910 /* vraag1.png */; };
+		68E151001C3FF8780018A910 /* vraag111.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E150FF1C3FF8780018A910 /* vraag111.png */; };
+		68E1A1B51BDE1CD800427385 /* locationgedaan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E1A1B41BDE1CD800427385 /* locationgedaan1.png */; };
+		68E1DA431BF0B1C4008F4A25 /* aaltjeslotMess1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E1DA421BF0B1C4008F4A25 /* aaltjeslotMess1.png */; };
+		68E1DA451BF0B85E008F4A25 /* Schatkist.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E1DA441BF0B85E008F4A25 /* Schatkist.png */; };
+		68E1DA471BF0B885008F4A25 /* brugOpdrachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1DA461BF0B885008F4A25 /* brugOpdrachtViewController.swift */; };
+		68E1DA491BF0F24F008F4A25 /* liefdesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1DA481BF0F24F008F4A25 /* liefdesMapViewController.swift */; };
+		68E2356C1C4E928B0097D29B /* alertExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E2356B1C4E928B0097D29B /* alertExt.swift */; };
+		68E245FB1BA982AC005842B7 /* locationIconKlein.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E245FA1BA982AC005842B7 /* locationIconKlein.png */; };
+		68E245FD1BA985DF005842B7 /* doelLocatieIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E245FC1BA985DF005842B7 /* doelLocatieIcon.png */; };
+		68E2463E1BB01726005842B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E14C7C1B988F9B00C295D2 /* CoreLocation.framework */; };
+		68E246401BB01730005842B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E2463F1BB01730005842B7 /* MapKit.framework */; };
+		68E2FC271C4F9FE500E7EDCF /* proefjes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E2FC261C4F9FE500E7EDCF /* proefjes.swift */; };
+		68E2FC6A1C5267FC00E7EDCF /* vraag2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E2FC691C5267FC00E7EDCF /* vraag2.png */; };
+		68E40C931C33D0C30003B1E5 /* aepjenMess1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C901C33D0C30003B1E5 /* aepjenMess1.png */; };
+		68E40C941C33D0C30003B1E5 /* aepjenMess4.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C911C33D0C30003B1E5 /* aepjenMess4.png */; };
+		68E40C951C33D0C30003B1E5 /* aepjenMess5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C921C33D0C30003B1E5 /* aepjenMess5.png */; };
+		68E40C991C33D2C30003B1E5 /* aepjenMess3.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C971C33D2C30003B1E5 /* aepjenMess3.png */; };
+		68E40C9B1C33D2F50003B1E5 /* aepjenMess2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C9A1C33D2F50003B1E5 /* aepjenMess2.png */; };
+		68E40C9F1C33D58A0003B1E5 /* grietMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40C9E1C33D58A0003B1E5 /* grietMessage.png */; };
+		68E40CA11C33D6C70003B1E5 /* api5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CA01C33D6C70003B1E5 /* api5.png */; };
+		68E40CA41C34179E0003B1E5 /* emoticonFout.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CA21C34179E0003B1E5 /* emoticonFout.png */; };
+		68E40CA51C34179E0003B1E5 /* emoticonGoed.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CA31C34179E0003B1E5 /* emoticonGoed.png */; };
+		68E40CB31C3A7E660003B1E5 /* winst1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CAF1C3A7E660003B1E5 /* winst1.png */; };
+		68E40CB41C3A7E660003B1E5 /* verlies2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CB01C3A7E660003B1E5 /* verlies2.png */; };
+		68E40CB51C3A7E660003B1E5 /* verlies1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CB11C3A7E660003B1E5 /* verlies1.png */; };
+		68E40CB71C3A89AF0003B1E5 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E40CB61C3A89AF0003B1E5 /* WinViewController.swift */; };
+		68E40CB91C3A8CD10003B1E5 /* winst2Nieuw.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E40CB81C3A8CD10003B1E5 /* winst2Nieuw.png */; };
+		68E40CBB1C3A9A2C0003B1E5 /* EindschermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E40CBA1C3A9A2C0003B1E5 /* EindschermViewController.swift */; };
+		68E9B0B61BBC0139004BA7A3 /* Damschavot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E9B0B51BBC0139004BA7A3 /* Damschavot2.png */; };
+		68E9B0B81BBC093C004BA7A3 /* Damschavot3Gr.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E9B0B71BBC093C004BA7A3 /* Damschavot3Gr.png */; };
+		68E9B0BA1BBC2151004BA7A3 /* DamopdrachtTweeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E9B0B91BBC2151004BA7A3 /* DamopdrachtTweeViewController.swift */; };
+		68E9B0BD1BBC2B54004BA7A3 /* paleisDam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E9B0BC1BBC2B54004BA7A3 /* paleisDam.jpg */; };
+		68E9B0BF1BBC2C2C004BA7A3 /* vangoghschavot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E9B0BE1BBC2C2C004BA7A3 /* vangoghschavot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +325,238 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		680360A91C1AFA2C00E2B6DA /* textGroter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textGroter.swift; sourceTree = "<group>"; };
+		680360AD1C1EC98100E2B6DA /* Roeienriemen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roeienriemen3.png; sourceTree = "<group>"; };
+		680360AF1C1ECA2100E2B6DA /* roeien riemen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roeien riemen2.jpg"; sourceTree = "<group>"; };
+		6818A0681BC2708A009D26B9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6818A0691BC2708A009D26B9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6818A06A1BC2708A009D26B9 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		6818A06B1BC2708A009D26B9 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		6818A06C1BC2708A009D26B9 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		6818A06D1BC2708A009D26B9 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		6818A06E1BC2708A009D26B9 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		6818A0761BC2717E009D26B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6818A0781BC27190009D26B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6818A07A1BC271AC009D26B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6818A07C1BC271BB009D26B9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6818A07E1BC271D3009D26B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6818A0801BC271DA009D26B9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6818A0821BC271E8009D26B9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6818A0841BC271FA009D26B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6818A0861BC27219009D26B9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6818A0951BC2B617009D26B9 /* TeamnaamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamnaamViewController.swift; sourceTree = "<group>"; };
+		68411FCD1C046FCC00DD2D9D /* Aaltje.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aaltje.mp3; sourceTree = "<group>"; };
+		68411FCE1C046FCC00DD2D9D /* Barendt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Barendt.mp3; sourceTree = "<group>"; };
+		68411FCF1C046FCC00DD2D9D /* Griet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Griet.mp3; sourceTree = "<group>"; };
+		68411FD31C047DFD00DD2D9D /* Aaltje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aaltje.png; sourceTree = "<group>"; };
+		68411FD51C04C60A00DD2D9D /* basisAaltje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basisAaltje.png; sourceTree = "<group>"; };
+		68411FD81C04C7E100DD2D9D /* aaltjeMessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = aaltjeMessView.xib; path = ../aaltjeMessView.xib; sourceTree = "<group>"; };
+		68411FDA1C04C85900DD2D9D /* aaltjeMessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aaltjeMessView.swift; sourceTree = "<group>"; };
+		684571871C11A96700650349 /* MyPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlayer.swift; sourceTree = "<group>"; };
+		6845718A1C11B46600650349 /* routeAanwijzing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = routeAanwijzing.swift; sourceTree = "<group>"; };
+		6845718C1C11BCBD00650349 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		6845718E1C11BD4B00650349 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		684571901C11D4E700650349 /* cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheering.mp3; sourceTree = "<group>"; };
+		684571921C11DD6200650349 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		684867511BB5743B00C0A92B /* NaarHetDamrakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaarHetDamrakViewController.swift; sourceTree = "<group>"; };
+		684867531BB6B1AB00C0A92B /* ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ting.wav; sourceTree = "<group>"; };
+		684867551BB6CB7800C0A92B /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		684867571BB6CCB600C0A92B /* background6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background6.jpg; sourceTree = "<group>"; };
+		684867581BB6CCB600C0A92B /* background5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background5.jpg; sourceTree = "<group>"; };
+		684867591BB6CCB600C0A92B /* background4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background4.jpg; sourceTree = "<group>"; };
+		685BABDB1BEA4EB2003FF65A /* woosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woosh.wav; sourceTree = "<group>"; };
+		685BABE61BEA9640003FF65A /* api3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = api3.png; sourceTree = "<group>"; };
+		685BABE71BEA9640003FF65A /* api2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = api2.png; sourceTree = "<group>"; };
+		685BABE91BEA9640003FF65A /* api1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = api1.png; sourceTree = "<group>"; };
+		685BABF11BEA97DA003FF65A /* api4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = api4.png; sourceTree = "<group>"; };
+		685BABF51BEA9DDA003FF65A /* teamnaam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamnaam1.png; sourceTree = "<group>"; };
+		685BABF61BEA9DDA003FF65A /* teamnaam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamnaam2.png; sourceTree = "<group>"; };
+		685BABF71BEA9DDA003FF65A /* teamfoto2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamfoto2.png; sourceTree = "<group>"; };
+		685BABF81BEA9DDA003FF65A /* teamfoto1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamfoto1.png; sourceTree = "<group>"; };
+		685BAC051BF09DF6003FF65A /* LiefdesbrugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiefdesbrugViewController.swift; sourceTree = "<group>"; };
+		685BAC091BF0A2E9003FF65A /* brugMess3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brugMess3.jpg; sourceTree = "<group>"; };
+		685BAC0A1BF0A2E9003FF65A /* brugMess2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brugMess2.jpg; sourceTree = "<group>"; };
+		685BAC0B1BF0A2E9003FF65A /* brugMess1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brugMess1.jpg; sourceTree = "<group>"; };
+		685BAC0C1BF0A2E9003FF65A /* staalmeestersbrug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = staalmeestersbrug.jpg; sourceTree = "<group>"; };
+		685BAC1A1BF0A912003FF65A /* aaltjeschrMess3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeschrMess3.png; sourceTree = "<group>"; };
+		685BAC1B1BF0A912003FF65A /* aaltjeschrMess2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeschrMess2.png; sourceTree = "<group>"; };
+		685BAC1C1BF0A912003FF65A /* aaltjeschrMess1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeschrMess1.png; sourceTree = "<group>"; };
+		687BB9081BF23C6E002937F1 /* opmaakButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opmaakButton.swift; sourceTree = "<group>"; };
+		687BB90D1BF24781002937F1 /* ScoreLabeltje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreLabeltje.swift; sourceTree = "<group>"; };
+		687BB9101BF256D3002937F1 /* distanceLabeltje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = distanceLabeltje.swift; sourceTree = "<group>"; };
+		687EC54B1BCD1D1A00062644 /* amsterdam1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amsterdam1.jpg; sourceTree = "<group>"; };
+		687EC54D1BCD1D1A00062644 /* amsterdam2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amsterdam2.jpg; sourceTree = "<group>"; };
+		687EC5521BCD21C100062644 /* naarScheepvaartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarScheepvaartViewController.swift; sourceTree = "<group>"; };
+		687EC5541BCD264100062644 /* glazenUitlegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = glazenUitlegViewController.swift; sourceTree = "<group>"; };
+		687EC5561BCD2CB900062644 /* glazen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glazen3.jpg; sourceTree = "<group>"; };
+		687EC55C1BCE553C00062644 /* scheeps1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheeps1.png; sourceTree = "<group>"; };
+		687EC55D1BCE553C00062644 /* scheeps2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheeps2.png; sourceTree = "<group>"; };
+		687EC55E1BCE553C00062644 /* scheeps3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheeps3.png; sourceTree = "<group>"; };
+		6898E63E1BCBBE420072DE05 /* gezegdeFotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gezegdeFotoViewController.swift; sourceTree = "<group>"; };
+		6898E6401BCBD5660072DE05 /* GezegdeRadenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GezegdeRadenViewController.swift; sourceTree = "<group>"; };
+		6898E6461BCBF9F40072DE05 /* tweedeGezegdeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tweedeGezegdeViewController.swift; sourceTree = "<group>"; };
+		6898E64E1BCD12440072DE05 /* deAmsterdamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deAmsterdamViewController.swift; sourceTree = "<group>"; };
+		689D93C41BB976A000D98060 /* Damschavotbig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Damschavotbig.jpg; sourceTree = "<group>"; };
+		689D93C51BB976A000D98060 /* Damschavotclose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Damschavotclose.jpg; sourceTree = "<group>"; };
+		689D94081BB997F400D98060 /* damrak1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damrak1.jpg; sourceTree = "<group>"; };
+		689D94091BB997F400D98060 /* damrak2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damrak2.jpg; sourceTree = "<group>"; };
+		689D940A1BB997F400D98060 /* damrak3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damrak3.jpg; sourceTree = "<group>"; };
+		689D940E1BBACCF000D98060 /* DamrakOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamrakOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68A0D7361BB164AF0077ECF2 /* TestjeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestjeViewController.swift; sourceTree = "<group>"; };
+		68A0D73E1BB3507F0077ECF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68A0D7401BB406670077ECF2 /* CameraOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68A2D0F61C05DDF700A29438 /* italy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = italy.gif; sourceTree = "<group>"; };
+		68A2D0F71C05DDF700A29438 /* nederland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nederland.jpg; sourceTree = "<group>"; };
+		68A2D0F81C05DDF700A29438 /* iran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iran.jpg; sourceTree = "<group>"; };
+		68A2D0F91C05DDF700A29438 /* ethiopia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ethiopia.jpg; sourceTree = "<group>"; };
+		68A2D0FF1C062CC900A29438 /* barendtMessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = barendtMessView.swift; sourceTree = "<group>"; };
+		68A2D1011C062CE200A29438 /* barendtMessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = barendtMessView.xib; sourceTree = "<group>"; };
+		68A2D1031C062E5000A29438 /* barendtLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendtLeeg.png; sourceTree = "<group>"; };
+		68A2D1051C07304E00A29438 /* balloons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloons.png; sourceTree = "<group>"; };
+		68A2D1091C07517600A29438 /* overOostindischViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = overOostindischViewController.swift; sourceTree = "<group>"; };
+		68A2D10B1C07559200A29438 /* indisch2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indisch2.jpg; sourceTree = "<group>"; };
+		68A2D10C1C07559200A29438 /* indisch1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indisch1.jpg; sourceTree = "<group>"; };
+		68AB216F1BE153E200C8E37C /* balk02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balk02.png; sourceTree = "<group>"; };
+		68AB21701BE153E200C8E37C /* balk01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balk01.png; sourceTree = "<group>"; };
+		68AB21731BE176C900C8E37C /* balk011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balk011.png; sourceTree = "<group>"; };
+		68AB21781BE3A12600C8E37C /* uitlegPaleisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uitlegPaleisViewController.swift; sourceTree = "<group>"; };
+		68AB21801BE699F200C8E37C /* benedenbalk01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = benedenbalk01.png; sourceTree = "<group>"; };
+		68AB21811BE699F200C8E37C /* bovenbalk01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bovenbalk01.png; sourceTree = "<group>"; };
+		68AB21841BE6B7EE00C8E37C /* aaltjeZiek1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaltjeZiek1.jpg; sourceTree = "<group>"; };
+		68AB21861BE6CEAC00C8E37C /* messSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = messSound.wav; sourceTree = "<group>"; };
+		68BCCE2A1BDE21B100C14ED4 /* naarSluiswachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarSluiswachtViewController.swift; sourceTree = "<group>"; };
+		68BCCE2D1BDE25FB00C14ED4 /* uitlegSluyswachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uitlegSluyswachtViewController.swift; sourceTree = "<group>"; };
+		68BCCE301BDE2F1100C14ED4 /* sluys3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sluys3.jpg; sourceTree = "<group>"; };
+		68BCCE311BDE2F1100C14ED4 /* sluys2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sluys2.jpg; sourceTree = "<group>"; };
+		68BCCE321BDE2F1100C14ED4 /* sluys1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sluys1.jpg; sourceTree = "<group>"; };
+		68BCCE361BDE302F00C14ED4 /* opdrachtSluysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opdrachtSluysViewController.swift; sourceTree = "<group>"; };
+		68BCCE3E1BDE449700C14ED4 /* opdracht2SluysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opdracht2SluysViewController.swift; sourceTree = "<group>"; };
+		68BCCE461BDE657200C14ED4 /* HortusuitlegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HortusuitlegViewController.swift; sourceTree = "<group>"; };
+		68BCCECA1BE1136200C14ED4 /* balk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balk.png; sourceTree = "<group>"; };
+		68D549931BA70CEE00599702 /* galgenveld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galgenveld.jpg; sourceTree = "<group>"; };
+		68DC21051C216BD30026209A /* pijlrechts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pijlrechts.png; sourceTree = "<group>"; };
+		68DC21071C216EC00026209A /* bestestuurlui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestestuurlui.png; sourceTree = "<group>"; };
+		68DC21091C2174280026209A /* Roeienriemen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roeienriemen4.png; sourceTree = "<group>"; };
+		68DC210B1C2177D70026209A /* bestestuurlui2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestestuurlui2.png; sourceTree = "<group>"; };
+		68DD79641C46C1440040C8DF /* GezegdeAntw2GoedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GezegdeAntw2GoedViewController.swift; sourceTree = "<group>"; };
+		68DD79661C46C3550040C8DF /* Gezegde2Fout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gezegde2Fout.swift; sourceTree = "<group>"; };
+		68DD79681C47A3E60040C8DF /* GezegdeAntw2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GezegdeAntw2VC.swift; sourceTree = "<group>"; };
+		68DD796A1C4D0A920040C8DF /* Antwoord1DamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antwoord1DamViewController.swift; sourceTree = "<group>"; };
+		68DD796C1C4D0AC70040C8DF /* Antwoord2DamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antwoord2DamViewController.swift; sourceTree = "<group>"; };
+		68DD796F1C4D10750040C8DF /* paleis1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paleis1.jpeg; sourceTree = "<group>"; };
+		68DD79731C4D1BFF0040C8DF /* damSchavot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damSchavot.jpg; sourceTree = "<group>"; };
+		68DE16261BF9F680005B20CC /* grietMessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = grietMessView.swift; path = ../grietMessView.swift; sourceTree = "<group>"; };
+		68DE16281BF9F6AD005B20CC /* grietMessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = grietMessView.xib; sourceTree = "<group>"; };
+		68DE162A1BFA0F99005B20CC /* amsterdam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amsterdam1.png; sourceTree = "<group>"; };
+		68DE162B1BFA0F99005B20CC /* amsterdam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amsterdam2.png; sourceTree = "<group>"; };
+		68DE162E1BFA14DF005B20CC /* kaneelst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kaneelst.jpg; sourceTree = "<group>"; };
+		68DE16301BFA1EFD005B20CC /* MapOostindischViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOostindischViewController.swift; sourceTree = "<group>"; };
+		68DE167E1BFC9277005B20CC /* UitlegOostindischViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UitlegOostindischViewController.swift; sourceTree = "<group>"; };
+		68DE16801BFCABBA005B20CC /* laatsteOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = laatsteOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68DE16821BFCCEA4005B20CC /* kleinstehuis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kleinstehuis.jpg; sourceTree = "<group>"; };
+		68DE16861BFCD105005B20CC /* loseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loseViewController.swift; sourceTree = "<group>"; };
+		68DF0F641BC3C1E000464392 /* PuntenAepjenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuntenAepjenViewController.swift; sourceTree = "<group>"; };
+		68DF0F711BC4190D00464392 /* MapSchreiersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSchreiersViewController.swift; sourceTree = "<group>"; };
+		68DF0F731BC5285C00464392 /* SchreiersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchreiersViewController.swift; sourceTree = "<group>"; };
+		68DF0F7E1BC6643200464392 /* ScheepskameelAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheepskameelAnimationViewController.swift; sourceTree = "<group>"; };
+		68DF36461BA04EA6009D5141 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		68DF36481BA05901009D5141 /* EntrepotOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrepotOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68DF364C1BA06445009D5141 /* go_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_button.png; sourceTree = "<group>"; };
+		68DF364E1BA066A3009D5141 /* gobutto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gobutto.jpg; sourceTree = "<group>"; };
+		68DF36501BA066B7009D5141 /* gobut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gobut.jpg; sourceTree = "<group>"; };
+		68DF36521BA068A0009D5141 /* go-button-1934443.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-button-1934443.png"; sourceTree = "<group>"; };
+		68DF36541BA1BAC5009D5141 /* schreiersOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = schreiersOpdrachtViewController.swift; path = ../schreiersOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68DF36561BA1C06B009D5141 /* schedelboring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = schedelboring.jpg; sourceTree = "<group>"; };
+		68DF36581BA1C080009D5141 /* kompres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kompres.jpg; sourceTree = "<group>"; };
+		68DF36591BA1C080009D5141 /* spalken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spalken.jpg; sourceTree = "<group>"; };
+		68DF365A1BA1C080009D5141 /* amputatie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amputatie.jpg; sourceTree = "<group>"; };
+		68DF365B1BA1C080009D5141 /* dichtbranden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dichtbranden.jpg; sourceTree = "<group>"; };
+		68DF365C1BA1C080009D5141 /* aderlaten.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aderlaten.gif; sourceTree = "<group>"; };
+		68DF36621BA307B9009D5141 /* hangmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hangmanViewController.swift; sourceTree = "<group>"; };
+		68DF86A61BC69C80001CB687 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		68DF86AE1BC6A83B001CB687 /* naarScheepskameelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarScheepskameelViewController.swift; sourceTree = "<group>"; };
+		68DF86B11BC7B5A8001CB687 /* mapGalgenveldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapGalgenveldViewController.swift; sourceTree = "<group>"; };
+		68DF86B31BC7C164001CB687 /* GalgenveldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalgenveldViewController.swift; sourceTree = "<group>"; };
+		68DF86B61BC7C44B001CB687 /* galgveld3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galgveld3.jpg; sourceTree = "<group>"; };
+		68DF86B71BC7C44B001CB687 /* galgveld2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galgveld2.jpg; sourceTree = "<group>"; };
+		68DF86B81BC7C44B001CB687 /* galgveld1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galgveld1.jpg; sourceTree = "<group>"; };
+		68DF86BC1BC7D7EC001CB687 /* naarDeamsterdamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarDeamsterdamViewController.swift; sourceTree = "<group>"; };
+		68DF86BF1BCBAB9E001CB687 /* GezegdeCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GezegdeCameraViewController.swift; sourceTree = "<group>"; };
+		68DF9BDF1C1823AC004CF456 /* Kaneel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kaneel.jpg; sourceTree = "<group>"; };
+		68DF9BE31C1827C5004CF456 /* Kruidnagel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kruidnagel.jpg; sourceTree = "<group>"; };
+		68DF9BE41C1827C5004CF456 /* Peper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peper.jpg; sourceTree = "<group>"; };
+		68DF9BE71C182841004CF456 /* Foelie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Foelie.jpg; sourceTree = "<group>"; };
+		68DF9BE91C182B10004CF456 /* Gember.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gember.jpg; sourceTree = "<group>"; };
+		68DF9BEB1C182D25004CF456 /* Nootmuskaat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nootmuskaat.jpg; sourceTree = "<group>"; };
+		68E0507F1BD0FD4A0070FDC3 /* naarOosterkerkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarOosterkerkViewController.swift; sourceTree = "<group>"; };
+		68E050821BD100070070FDC3 /* oosterkerkUitlegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oosterkerkUitlegViewController.swift; sourceTree = "<group>"; };
+		68E050841BD12CBD0070FDC3 /* beginSchermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginSchermViewController.swift; sourceTree = "<group>"; };
+		68E051671BD6893A0070FDC3 /* oosterkerk2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oosterkerk2.jpg; sourceTree = "<group>"; };
+		68E051681BD6893A0070FDC3 /* oosterkerk3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oosterkerk3.jpg; sourceTree = "<group>"; };
+		68E051691BD6893A0070FDC3 /* oosterkerk1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oosterkerk1.jpg; sourceTree = "<group>"; };
+		68E0516D1BD68A600070FDC3 /* oosterkerkOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oosterkerkOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68E0516F1BD6BE210070FDC3 /* NaarEntrepotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaarEntrepotViewController.swift; sourceTree = "<group>"; };
+		68E051721BD6C2530070FDC3 /* entrpotUitlegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = entrpotUitlegViewController.swift; sourceTree = "<group>"; };
+		68E051741BD8C98F0070FDC3 /* naarHortusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naarHortusViewController.swift; sourceTree = "<group>"; };
+		68E051771BD8D8FF0070FDC3 /* locationgedaan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationgedaan.png; sourceTree = "<group>"; };
+		68E051791BD8D8FF0070FDC3 /* location20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location20.png; sourceTree = "<group>"; };
+		68E0517A1BD8D8FF0070FDC3 /* location19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location19.png; sourceTree = "<group>"; };
+		68E0517B1BD8D8FF0070FDC3 /* location18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location18.png; sourceTree = "<group>"; };
+		68E0517C1BD8D8FF0070FDC3 /* location17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location17.png; sourceTree = "<group>"; };
+		68E0517D1BD8D8FF0070FDC3 /* location16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location16.png; sourceTree = "<group>"; };
+		68E0517E1BD8D8FF0070FDC3 /* location15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location15.png; sourceTree = "<group>"; };
+		68E0517F1BD8D8FF0070FDC3 /* location14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location14.png; sourceTree = "<group>"; };
+		68E051801BD8D8FF0070FDC3 /* location13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location13.png; sourceTree = "<group>"; };
+		68E051811BD8D8FF0070FDC3 /* location12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location12.png; sourceTree = "<group>"; };
+		68E051821BD8D8FF0070FDC3 /* location11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location11.png; sourceTree = "<group>"; };
+		68E051831BD8D8FF0070FDC3 /* location10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location10.png; sourceTree = "<group>"; };
+		68E051841BD8D8FF0070FDC3 /* location9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location9.png; sourceTree = "<group>"; };
+		68E051851BD8D8FF0070FDC3 /* location8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location8.png; sourceTree = "<group>"; };
+		68E051861BD8D8FF0070FDC3 /* location7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location7.png; sourceTree = "<group>"; };
+		68E051871BD8D8FF0070FDC3 /* location6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location6.png; sourceTree = "<group>"; };
+		68E051881BD8D8FF0070FDC3 /* location5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location5.png; sourceTree = "<group>"; };
+		68E051891BD8D8FF0070FDC3 /* location4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location4.png; sourceTree = "<group>"; };
+		68E0518A1BD8D8FF0070FDC3 /* location3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location3.png; sourceTree = "<group>"; };
+		68E0518B1BD8D8FF0070FDC3 /* location2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location2.png; sourceTree = "<group>"; };
+		68E0518C1BD8D8FF0070FDC3 /* location1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location1.png; sourceTree = "<group>"; };
+		68E051A31BDA325F0070FDC3 /* ChirurgijnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChirurgijnViewController.swift; sourceTree = "<group>"; };
+		68E051A51BDA3BC50070FDC3 /* aaltje.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaltje.jpg; sourceTree = "<group>"; };
+		68E051B81BDA74330070FDC3 /* entrepot3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = entrepot3.jpg; sourceTree = "<group>"; };
+		68E051B91BDA74330070FDC3 /* entrepot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = entrepot2.jpg; sourceTree = "<group>"; };
+		68E051BA1BDA74330070FDC3 /* entrepot1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = entrepot1.jpg; sourceTree = "<group>"; };
+		68E051D21BDACA380070FDC3 /* hang1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang1.png; sourceTree = "<group>"; };
+		68E051D31BDACA380070FDC3 /* hang2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang2.png; sourceTree = "<group>"; };
+		68E051D41BDACA380070FDC3 /* hang3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang3.png; sourceTree = "<group>"; };
+		68E051D51BDACA380070FDC3 /* hang4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang4.png; sourceTree = "<group>"; };
+		68E051D61BDACA380070FDC3 /* hang5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang5.png; sourceTree = "<group>"; };
+		68E051D71BDACA380070FDC3 /* hang6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang6.png; sourceTree = "<group>"; };
+		68E051D81BDACA380070FDC3 /* hang7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang7.png; sourceTree = "<group>"; };
+		68E0DEDE1BF33FE500B79CC6 /* schreiers1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schreiers1.png; sourceTree = "<group>"; };
+		68E0DEE01BF3478400B79CC6 /* reis1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reis1.png; sourceTree = "<group>"; };
+		68E0DEE21BF34BD000B79CC6 /* scheepskameel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheepskameel1.png; sourceTree = "<group>"; };
+		68E0DEE41BF34F4000B79CC6 /* beginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginViewController.swift; sourceTree = "<group>"; };
+		68E0DEE61BF354A700B79CC6 /* barendtkameel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendtkameel1.png; sourceTree = "<group>"; };
+		68E0DEE71BF354A700B79CC6 /* barendtkameel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendtkameel3.png; sourceTree = "<group>"; };
+		68E0DEE81BF354A700B79CC6 /* barendtkameel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendtkameel2.png; sourceTree = "<group>"; };
+		68E0DEED1BF35EA900B79CC6 /* Dam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dam2.png; sourceTree = "<group>"; };
+		68E0DEEE1BF35EA900B79CC6 /* Dam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dam1.png; sourceTree = "<group>"; };
+		68E0DEEF1BF35EA900B79CC6 /* Dam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dam3.png; sourceTree = "<group>"; };
+		68E0DEF31BF3730A00B79CC6 /* barendtziek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendtziek.png; sourceTree = "<group>"; };
+		68E0DEF51BF3764800B79CC6 /* aaltjeschrGoed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeschrGoed.png; sourceTree = "<group>"; };
+		68E0DEF71BF3778400B79CC6 /* aaltjeschrFout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeschrFout.png; sourceTree = "<group>"; };
+		68E0DEF91BF37AA800B79CC6 /* scheurbuik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheurbuik.png; sourceTree = "<group>"; };
+		68E0DEFC1BF3CD2500B79CC6 /* textLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textLabel.swift; sourceTree = "<group>"; };
+		68E0DEFE1BF4AC0C00B79CC6 /* glazen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glazen2.jpg; sourceTree = "<group>"; };
+		68E0DF001BF4C9BA00B79CC6 /* hortus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hortus2.jpg; sourceTree = "<group>"; };
+		68E0DF011BF4C9BA00B79CC6 /* hortus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hortus1.jpg; sourceTree = "<group>"; };
+		68E0DF041BF4CC4300B79CC6 /* hortusOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hortusOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68E0DF061BF4D0FC00B79CC6 /* koffie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koffie3.jpg; sourceTree = "<group>"; };
+		68E0DF071BF4D0FC00B79CC6 /* koffie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koffie2.png; sourceTree = "<group>"; };
+		68E0DF081BF4D0FC00B79CC6 /* koffie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koffie1.jpg; sourceTree = "<group>"; };
+		68E0DF0C1BF8BC0E00B79CC6 /* grietLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grietLeeg.png; sourceTree = "<group>"; };
+		68E0DF0F1BF8BC8D00B79CC6 /* messLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messLabel.swift; sourceTree = "<group>"; };
 		68E14BAC1B984AC300C295D2 /* Protobarendt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protobarendt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E14BAF1B984AC300C295D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68E14BB11B984AC300C295D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		68E14BB41B984AC300C295D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68E14BB71B984AC300C295D2 /* Protobarendt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Protobarendt.xcdatamodel; sourceTree = "<group>"; };
 		68E14BB91B984AC300C295D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68E14BBC1B984AC300C295D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +567,67 @@
 		68E14BCE1B984AC300C295D2 /* ProtobarendtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtobarendtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E14BD21B984AC300C295D2 /* ProtobarendtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobarendtUITests.swift; sourceTree = "<group>"; };
 		68E14BD41B984AC300C295D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E14BE51B98672D00C295D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		68E14C721B9881D800C295D2 /* achtergrond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achtergrond.png; sourceTree = "<group>"; };
+		68E14C741B9883E100C295D2 /* Damrakaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Damrakaudio.mp3; sourceTree = "<group>"; };
+		68E14C7A1B9887B700C295D2 /* DamrakMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamrakMapViewController.swift; sourceTree = "<group>"; };
+		68E14C7C1B988F9B00C295D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		68E14C801B9D825700C295D2 /* flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flag.jpg; sourceTree = "<group>"; };
+		68E14C821B9D86AB00C295D2 /* flagblue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flagblue.jpg; sourceTree = "<group>"; };
+		68E14C841B9D928700C295D2 /* ScheepskameelMultipleChoiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheepskameelMultipleChoiceController.swift; sourceTree = "<group>"; };
+		68E14C861B9DB03B00C295D2 /* barendt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barendt.png; sourceTree = "<group>"; };
+		68E14C881B9DC29300C295D2 /* scheepskameelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheepskameelViewController.swift; sourceTree = "<group>"; };
+		68E14C8A1B9DC53700C295D2 /* scheepskameel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheepskameel.png; sourceTree = "<group>"; };
+		68E14C8E1B9DD0D300C295D2 /* scheepskameelfoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scheepskameelfoto.jpg; sourceTree = "<group>"; };
+		68E14C901B9DD80C00C295D2 /* scheepsAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheepsAudioViewController.swift; sourceTree = "<group>"; };
+		68E14C921B9EF08200C295D2 /* hourglassnew8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew8.png; sourceTree = "<group>"; };
+		68E14C931B9EF08200C295D2 /* hourglassnew7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew7.png; sourceTree = "<group>"; };
+		68E14C951B9EF08200C295D2 /* hourglassnew5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew5.png; sourceTree = "<group>"; };
+		68E14C961B9EF08200C295D2 /* hourglassnew4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew4.png; sourceTree = "<group>"; };
+		68E14C971B9EF08200C295D2 /* hourglassnew3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew3.png; sourceTree = "<group>"; };
+		68E14C981B9EF08200C295D2 /* hourglassnew2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew2.png; sourceTree = "<group>"; };
+		68E14C991B9EF08200C295D2 /* hourglassnew1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew1.png; sourceTree = "<group>"; };
+		68E14CA21B9EF0E200C295D2 /* hourglassnew6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglassnew6.png; sourceTree = "<group>"; };
+		68E14CA41B9EF65600C295D2 /* GlazenslaanTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlazenslaanTimerViewController.swift; path = ../GlazenslaanTimerViewController.swift; sourceTree = "<group>"; };
+		68E14CA61BA044FB00C295D2 /* startbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startbutton.png; sourceTree = "<group>"; };
+		68E150F01C3FF58D0018A910 /* vraag12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag12.png; sourceTree = "<group>"; };
+		68E150F11C3FF58D0018A910 /* vraag13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag13.png; sourceTree = "<group>"; };
+		68E150F21C3FF58D0018A910 /* vraag21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag21.png; sourceTree = "<group>"; };
+		68E150F31C3FF58D0018A910 /* vraag22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag22.png; sourceTree = "<group>"; };
+		68E150F41C3FF58D0018A910 /* vraag23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag23.png; sourceTree = "<group>"; };
+		68E150FB1C3FF59D0018A910 /* vraag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag1.png; sourceTree = "<group>"; };
+		68E150FF1C3FF8780018A910 /* vraag111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag111.png; sourceTree = "<group>"; };
+		68E1A1B41BDE1CD800427385 /* locationgedaan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationgedaan1.png; sourceTree = "<group>"; };
+		68E1DA421BF0B1C4008F4A25 /* aaltjeslotMess1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaltjeslotMess1.png; sourceTree = "<group>"; };
+		68E1DA441BF0B85E008F4A25 /* Schatkist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schatkist.png; sourceTree = "<group>"; };
+		68E1DA461BF0B885008F4A25 /* brugOpdrachtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = brugOpdrachtViewController.swift; sourceTree = "<group>"; };
+		68E1DA481BF0F24F008F4A25 /* liefdesMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = liefdesMapViewController.swift; sourceTree = "<group>"; };
+		68E2356B1C4E928B0097D29B /* alertExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertExt.swift; sourceTree = "<group>"; };
+		68E245FA1BA982AC005842B7 /* locationIconKlein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIconKlein.png; sourceTree = "<group>"; };
+		68E245FC1BA985DF005842B7 /* doelLocatieIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doelLocatieIcon.png; sourceTree = "<group>"; };
+		68E2463F1BB01730005842B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		68E2FC261C4F9FE500E7EDCF /* proefjes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proefjes.swift; sourceTree = "<group>"; };
+		68E2FC691C5267FC00E7EDCF /* vraag2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraag2.png; sourceTree = "<group>"; };
+		68E40C901C33D0C30003B1E5 /* aepjenMess1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aepjenMess1.png; sourceTree = "<group>"; };
+		68E40C911C33D0C30003B1E5 /* aepjenMess4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aepjenMess4.png; sourceTree = "<group>"; };
+		68E40C921C33D0C30003B1E5 /* aepjenMess5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aepjenMess5.png; sourceTree = "<group>"; };
+		68E40C971C33D2C30003B1E5 /* aepjenMess3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aepjenMess3.png; sourceTree = "<group>"; };
+		68E40C9A1C33D2F50003B1E5 /* aepjenMess2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aepjenMess2.png; sourceTree = "<group>"; };
+		68E40C9E1C33D58A0003B1E5 /* grietMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grietMessage.png; sourceTree = "<group>"; };
+		68E40CA01C33D6C70003B1E5 /* api5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = api5.png; sourceTree = "<group>"; };
+		68E40CA21C34179E0003B1E5 /* emoticonFout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticonFout.png; sourceTree = "<group>"; };
+		68E40CA31C34179E0003B1E5 /* emoticonGoed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoticonGoed.png; sourceTree = "<group>"; };
+		68E40CAF1C3A7E660003B1E5 /* winst1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winst1.png; sourceTree = "<group>"; };
+		68E40CB01C3A7E660003B1E5 /* verlies2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verlies2.png; sourceTree = "<group>"; };
+		68E40CB11C3A7E660003B1E5 /* verlies1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verlies1.png; sourceTree = "<group>"; };
+		68E40CB61C3A89AF0003B1E5 /* WinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinViewController.swift; path = ../WinViewController.swift; sourceTree = "<group>"; };
+		68E40CB81C3A8CD10003B1E5 /* winst2Nieuw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winst2Nieuw.png; sourceTree = "<group>"; };
+		68E40CBA1C3A9A2C0003B1E5 /* EindschermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EindschermViewController.swift; sourceTree = "<group>"; };
+		68E9B0B51BBC0139004BA7A3 /* Damschavot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Damschavot2.png; sourceTree = "<group>"; };
+		68E9B0B71BBC093C004BA7A3 /* Damschavot3Gr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Damschavot3Gr.png; sourceTree = "<group>"; };
+		68E9B0B91BBC2151004BA7A3 /* DamopdrachtTweeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamopdrachtTweeViewController.swift; sourceTree = "<group>"; };
+		68E9B0BC1BBC2B54004BA7A3 /* paleisDam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paleisDam.jpg; sourceTree = "<group>"; };
+		68E9B0BE1BBC2C2C004BA7A3 /* vangoghschavot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vangoghschavot.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +635,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6818A0871BC27219009D26B9 /* libsqlite3.tbd in Frameworks */,
+				6818A0851BC271FA009D26B9 /* SystemConfiguration.framework in Frameworks */,
+				6818A0831BC271E8009D26B9 /* StoreKit.framework in Frameworks */,
+				6818A0811BC271DA009D26B9 /* Security.framework in Frameworks */,
+				6818A07F1BC271D3009D26B9 /* QuartzCore.framework in Frameworks */,
+				6818A07D1BC271BB009D26B9 /* MobileCoreServices.framework in Frameworks */,
+				6818A07B1BC271AC009D26B9 /* libz.tbd in Frameworks */,
+				6818A0791BC27190009D26B9 /* CFNetwork.framework in Frameworks */,
+				6818A0771BC2717E009D26B9 /* AudioToolbox.framework in Frameworks */,
+				6818A0721BC2708A009D26B9 /* ParseFacebookUtils.framework in Frameworks */,
+				68A0D73F1BB3507F0077ECF2 /* CoreGraphics.framework in Frameworks */,
+				6818A0751BC2708A009D26B9 /* ParseUI.framework in Frameworks */,
+				6818A0731BC2708A009D26B9 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				6818A0711BC2708A009D26B9 /* ParseCrashReporting.framework in Frameworks */,
+				6818A0741BC2708A009D26B9 /* ParseTwitterUtils.framework in Frameworks */,
+				68E14C7D1B988F9B00C295D2 /* CoreLocation.framework in Frameworks */,
+				68E14BE61B98672D00C295D2 /* AVFoundation.framework in Frameworks */,
+				6818A06F1BC2708A009D26B9 /* Bolts.framework in Frameworks */,
+				6818A0701BC2708A009D26B9 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,15 +668,517 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E246401BB01730005842B7 /* MapKit.framework in Frameworks */,
+				68E2463E1BB01726005842B7 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6818A0881BC274BC009D26B9 /* Damrak */ = {
+			isa = PBXGroup;
+			children = (
+				68AB21751BE39D7800C8E37C /* DamImages */,
+				684867511BB5743B00C0A92B /* NaarHetDamrakViewController.swift */,
+				68AB21781BE3A12600C8E37C /* uitlegPaleisViewController.swift */,
+				689D940E1BBACCF000D98060 /* DamrakOpdrachtViewController.swift */,
+				68DD796A1C4D0A920040C8DF /* Antwoord1DamViewController.swift */,
+				68E9B0B91BBC2151004BA7A3 /* DamopdrachtTweeViewController.swift */,
+				68DD796C1C4D0AC70040C8DF /* Antwoord2DamViewController.swift */,
+			);
+			name = Damrak;
+			sourceTree = "<group>";
+		};
+		6818A0891BC27512009D26B9 /* Aepjen */ = {
+			isa = PBXGroup;
+			children = (
+				6818A08A1BC2949D009D26B9 /* AepjenImages */,
+				68E14C7A1B9887B700C295D2 /* DamrakMapViewController.swift */,
+				68A0D7361BB164AF0077ECF2 /* TestjeViewController.swift */,
+				6818A0951BC2B617009D26B9 /* TeamnaamViewController.swift */,
+				68A0D7401BB406670077ECF2 /* CameraOpdrachtViewController.swift */,
+				68DF0F641BC3C1E000464392 /* PuntenAepjenViewController.swift */,
+			);
+			name = Aepjen;
+			sourceTree = "<group>";
+		};
+		6818A08A1BC2949D009D26B9 /* AepjenImages */ = {
+			isa = PBXGroup;
+			children = (
+				68E40C901C33D0C30003B1E5 /* aepjenMess1.png */,
+				68E40C971C33D2C30003B1E5 /* aepjenMess3.png */,
+				68E40C9A1C33D2F50003B1E5 /* aepjenMess2.png */,
+				68E40C911C33D0C30003B1E5 /* aepjenMess4.png */,
+				68E40C921C33D0C30003B1E5 /* aepjenMess5.png */,
+				685BABF51BEA9DDA003FF65A /* teamnaam1.png */,
+				685BABF61BEA9DDA003FF65A /* teamnaam2.png */,
+				685BABF71BEA9DDA003FF65A /* teamfoto2.png */,
+				685BABF81BEA9DDA003FF65A /* teamfoto1.png */,
+				68E40C9E1C33D58A0003B1E5 /* grietMessage.png */,
+				685BABE61BEA9640003FF65A /* api3.png */,
+				685BABE71BEA9640003FF65A /* api2.png */,
+				685BABF11BEA97DA003FF65A /* api4.png */,
+				68E40CA01C33D6C70003B1E5 /* api5.png */,
+				685BABE91BEA9640003FF65A /* api1.png */,
+			);
+			name = AepjenImages;
+			sourceTree = "<group>";
+		};
+		68411FD71C04C79700DD2D9D /* AaltjeMess */ = {
+			isa = PBXGroup;
+			children = (
+				68411FD81C04C7E100DD2D9D /* aaltjeMessView.xib */,
+				68411FDA1C04C85900DD2D9D /* aaltjeMessView.swift */,
+			);
+			name = AaltjeMess;
+			sourceTree = "<group>";
+		};
+		68411FDC1C04D27A00DD2D9D /* Algemeen AV */ = {
+			isa = PBXGroup;
+			children = (
+				684571901C11D4E700650349 /* cheering.mp3 */,
+				6845718C1C11BCBD00650349 /* error.wav */,
+				684571921C11DD6200650349 /* lose.mp3 */,
+				68DC21051C216BD30026209A /* pijlrechts.png */,
+				6845718E1C11BD4B00650349 /* win.wav */,
+				68A2D1031C062E5000A29438 /* barendtLeeg.png */,
+				68411FD51C04C60A00DD2D9D /* basisAaltje.png */,
+				68AB21811BE699F200C8E37C /* bovenbalk01.png */,
+				68AB21731BE176C900C8E37C /* balk011.png */,
+				68AB216F1BE153E200C8E37C /* balk02.png */,
+				68411FCD1C046FCC00DD2D9D /* Aaltje.mp3 */,
+				68411FCE1C046FCC00DD2D9D /* Barendt.mp3 */,
+				68411FCF1C046FCC00DD2D9D /* Griet.mp3 */,
+				68AB21701BE153E200C8E37C /* balk01.png */,
+				68E051A51BDA3BC50070FDC3 /* aaltje.jpg */,
+				685BABDB1BEA4EB2003FF65A /* woosh.wav */,
+				68E051801BD8D8FF0070FDC3 /* location13.png */,
+				68E051811BD8D8FF0070FDC3 /* location12.png */,
+				68E051821BD8D8FF0070FDC3 /* location11.png */,
+				68E051831BD8D8FF0070FDC3 /* location10.png */,
+				68E051841BD8D8FF0070FDC3 /* location9.png */,
+				68E051851BD8D8FF0070FDC3 /* location8.png */,
+				68E051861BD8D8FF0070FDC3 /* location7.png */,
+				68E051871BD8D8FF0070FDC3 /* location6.png */,
+				68E051881BD8D8FF0070FDC3 /* location5.png */,
+				68E051891BD8D8FF0070FDC3 /* location4.png */,
+				68E0518A1BD8D8FF0070FDC3 /* location3.png */,
+				68E0518B1BD8D8FF0070FDC3 /* location2.png */,
+				68E0518C1BD8D8FF0070FDC3 /* location1.png */,
+				68E051771BD8D8FF0070FDC3 /* locationgedaan.png */,
+				68E1A1B41BDE1CD800427385 /* locationgedaan1.png */,
+				68E051791BD8D8FF0070FDC3 /* location20.png */,
+				68E0DF0C1BF8BC0E00B79CC6 /* grietLeeg.png */,
+				68E0517A1BD8D8FF0070FDC3 /* location19.png */,
+				68E0517B1BD8D8FF0070FDC3 /* location18.png */,
+				68E0517C1BD8D8FF0070FDC3 /* location17.png */,
+				68E0517D1BD8D8FF0070FDC3 /* location16.png */,
+				68E0517E1BD8D8FF0070FDC3 /* location15.png */,
+				68E0517F1BD8D8FF0070FDC3 /* location14.png */,
+			);
+			name = "Algemeen AV";
+			sourceTree = "<group>";
+		};
+		684571841C11A8FC00650349 /* Helper functions */ = {
+			isa = PBXGroup;
+			children = (
+				68E2356B1C4E928B0097D29B /* alertExt.swift */,
+				684571871C11A96700650349 /* MyPlayer.swift */,
+				68E2FC261C4F9FE500E7EDCF /* proefjes.swift */,
+			);
+			name = "Helper functions";
+			sourceTree = "<group>";
+		};
+		684571891C11B42300650349 /* routeAanwijzing */ = {
+			isa = PBXGroup;
+			children = (
+				6845718A1C11B46600650349 /* routeAanwijzing.swift */,
+			);
+			name = routeAanwijzing;
+			sourceTree = "<group>";
+		};
+		685BAC071BF0A197003FF65A /* liefdesbrug */ = {
+			isa = PBXGroup;
+			children = (
+				685BAC081BF0A203003FF65A /* liefdesImages */,
+				685BAC051BF09DF6003FF65A /* LiefdesbrugViewController.swift */,
+				68E1DA481BF0F24F008F4A25 /* liefdesMapViewController.swift */,
+				68E1DA461BF0B885008F4A25 /* brugOpdrachtViewController.swift */,
+			);
+			name = liefdesbrug;
+			sourceTree = "<group>";
+		};
+		685BAC081BF0A203003FF65A /* liefdesImages */ = {
+			isa = PBXGroup;
+			children = (
+				685BAC091BF0A2E9003FF65A /* brugMess3.jpg */,
+				68E1DA441BF0B85E008F4A25 /* Schatkist.png */,
+				685BAC0A1BF0A2E9003FF65A /* brugMess2.jpg */,
+				685BAC0B1BF0A2E9003FF65A /* brugMess1.jpg */,
+				68E1DA421BF0B1C4008F4A25 /* aaltjeslotMess1.png */,
+				685BAC0C1BF0A2E9003FF65A /* staalmeestersbrug.jpg */,
+			);
+			name = liefdesImages;
+			sourceTree = "<group>";
+		};
+		687BB9071BF23BED002937F1 /* ShadedButton */ = {
+			isa = PBXGroup;
+			children = (
+				687BB9081BF23C6E002937F1 /* opmaakButton.swift */,
+			);
+			name = ShadedButton;
+			sourceTree = "<group>";
+		};
+		687BB90C1BF24751002937F1 /* scoreLabeltje */ = {
+			isa = PBXGroup;
+			children = (
+				687BB90D1BF24781002937F1 /* ScoreLabeltje.swift */,
+			);
+			name = scoreLabeltje;
+			sourceTree = "<group>";
+		};
+		687BB90F1BF256AB002937F1 /* distanceLabel */ = {
+			isa = PBXGroup;
+			children = (
+				687BB9101BF256D3002937F1 /* distanceLabeltje.swift */,
+			);
+			name = distanceLabel;
+			sourceTree = "<group>";
+		};
+		687EC5511BCD215600062644 /* Scheepvaartmuseum */ = {
+			isa = PBXGroup;
+			children = (
+				687EC5561BCD2CB900062644 /* glazen3.jpg */,
+				68E0DEFE1BF4AC0C00B79CC6 /* glazen2.jpg */,
+				687EC5521BCD21C100062644 /* naarScheepvaartViewController.swift */,
+				687EC5541BCD264100062644 /* glazenUitlegViewController.swift */,
+				68E14CA41B9EF65600C295D2 /* GlazenslaanTimerViewController.swift */,
+			);
+			name = Scheepvaartmuseum;
+			sourceTree = "<group>";
+		};
+		68A2D0FE1C062C9600A29438 /* BarendtMess */ = {
+			isa = PBXGroup;
+			children = (
+				68A2D0FF1C062CC900A29438 /* barendtMessView.swift */,
+				68A2D1011C062CE200A29438 /* barendtMessView.xib */,
+			);
+			name = BarendtMess;
+			sourceTree = "<group>";
+		};
+		68AB21751BE39D7800C8E37C /* DamImages */ = {
+			isa = PBXGroup;
+			children = (
+				68DD79731C4D1BFF0040C8DF /* damSchavot.jpg */,
+				68DD796F1C4D10750040C8DF /* paleis1.jpeg */,
+				689D94081BB997F400D98060 /* damrak1.jpg */,
+				689D94091BB997F400D98060 /* damrak2.jpg */,
+				689D940A1BB997F400D98060 /* damrak3.jpg */,
+			);
+			name = DamImages;
+			sourceTree = "<group>";
+		};
+		68BCCE2C1BDE21F500C14ED4 /* sluiswacht */ = {
+			isa = PBXGroup;
+			children = (
+				68BCCE2F1BDE264900C14ED4 /* imagessluyswacht */,
+				68BCCE2A1BDE21B100C14ED4 /* naarSluiswachtViewController.swift */,
+				68BCCE2D1BDE25FB00C14ED4 /* uitlegSluyswachtViewController.swift */,
+				68BCCE361BDE302F00C14ED4 /* opdrachtSluysViewController.swift */,
+				68BCCE3E1BDE449700C14ED4 /* opdracht2SluysViewController.swift */,
+			);
+			name = sluiswacht;
+			sourceTree = "<group>";
+		};
+		68BCCE2F1BDE264900C14ED4 /* imagessluyswacht */ = {
+			isa = PBXGroup;
+			children = (
+				68E150FB1C3FF59D0018A910 /* vraag1.png */,
+				68E2FC691C5267FC00E7EDCF /* vraag2.png */,
+				68E150FF1C3FF8780018A910 /* vraag111.png */,
+				68E150F01C3FF58D0018A910 /* vraag12.png */,
+				68E150F11C3FF58D0018A910 /* vraag13.png */,
+				68E150F21C3FF58D0018A910 /* vraag21.png */,
+				68E150F31C3FF58D0018A910 /* vraag22.png */,
+				68E150F41C3FF58D0018A910 /* vraag23.png */,
+				68BCCECA1BE1136200C14ED4 /* balk.png */,
+				68DF9BDF1C1823AC004CF456 /* Kaneel.jpg */,
+				68DE162E1BFA14DF005B20CC /* kaneelst.jpg */,
+				68DF9BE71C182841004CF456 /* Foelie.jpg */,
+				68DF9BE91C182B10004CF456 /* Gember.jpg */,
+				68DF9BE31C1827C5004CF456 /* Kruidnagel.jpg */,
+				68DF9BEB1C182D25004CF456 /* Nootmuskaat.jpg */,
+				68DF9BE41C1827C5004CF456 /* Peper.jpg */,
+				68BCCE301BDE2F1100C14ED4 /* sluys3.jpg */,
+				68BCCE311BDE2F1100C14ED4 /* sluys2.jpg */,
+				68BCCE321BDE2F1100C14ED4 /* sluys1.jpg */,
+			);
+			name = imagessluyswacht;
+			sourceTree = "<group>";
+		};
+		68DE16231BF9F573005B20CC /* Messgriet */ = {
+			isa = PBXGroup;
+			children = (
+				68DE16261BF9F680005B20CC /* grietMessView.swift */,
+				68DE16281BF9F6AD005B20CC /* grietMessView.xib */,
+			);
+			name = Messgriet;
+			sourceTree = "<group>";
+		};
+		68DE16321BFA1F30005B20CC /* Oostindisch huis */ = {
+			isa = PBXGroup;
+			children = (
+				68DE16881BFCD1C7005B20CC /* oostindisch images */,
+				68DE16301BFA1EFD005B20CC /* MapOostindischViewController.swift */,
+				68A2D1091C07517600A29438 /* overOostindischViewController.swift */,
+				68DE167E1BFC9277005B20CC /* UitlegOostindischViewController.swift */,
+				68DE16801BFCABBA005B20CC /* laatsteOpdrachtViewController.swift */,
+				68E40CB61C3A89AF0003B1E5 /* WinViewController.swift */,
+				68DE16861BFCD105005B20CC /* loseViewController.swift */,
+			);
+			name = "Oostindisch huis";
+			sourceTree = "<group>";
+		};
+		68DE16881BFCD1C7005B20CC /* oostindisch images */ = {
+			isa = PBXGroup;
+			children = (
+				68A2D10B1C07559200A29438 /* indisch2.jpg */,
+				68E40CAF1C3A7E660003B1E5 /* winst1.png */,
+				68E40CB81C3A8CD10003B1E5 /* winst2Nieuw.png */,
+				68E40CB01C3A7E660003B1E5 /* verlies2.png */,
+				68E40CB11C3A7E660003B1E5 /* verlies1.png */,
+				68A2D10C1C07559200A29438 /* indisch1.jpg */,
+				68A2D1051C07304E00A29438 /* balloons.png */,
+				68DE16821BFCCEA4005B20CC /* kleinstehuis.jpg */,
+			);
+			name = "oostindisch images";
+			sourceTree = "<group>";
+		};
+		68DF0F701BC4179500464392 /* Schreierstoren */ = {
+			isa = PBXGroup;
+			children = (
+				68DF0F751BC52A3B00464392 /* schreiersimages */,
+				68DF0F711BC4190D00464392 /* MapSchreiersViewController.swift */,
+				68DF0F731BC5285C00464392 /* SchreiersViewController.swift */,
+				68E051A31BDA325F0070FDC3 /* ChirurgijnViewController.swift */,
+				68DF36541BA1BAC5009D5141 /* schreiersOpdrachtViewController.swift */,
+			);
+			name = Schreierstoren;
+			sourceTree = "<group>";
+		};
+		68DF0F751BC52A3B00464392 /* schreiersimages */ = {
+			isa = PBXGroup;
+			children = (
+				68AB21841BE6B7EE00C8E37C /* aaltjeZiek1.jpg */,
+				68411FD31C047DFD00DD2D9D /* Aaltje.png */,
+				68AB21861BE6CEAC00C8E37C /* messSound.wav */,
+				68E0DEDE1BF33FE500B79CC6 /* schreiers1.png */,
+				68E0DEF71BF3778400B79CC6 /* aaltjeschrFout.png */,
+				68E0DEF91BF37AA800B79CC6 /* scheurbuik.png */,
+				68E0DEF51BF3764800B79CC6 /* aaltjeschrGoed.png */,
+				68E0DEF31BF3730A00B79CC6 /* barendtziek.png */,
+				685BAC1A1BF0A912003FF65A /* aaltjeschrMess3.png */,
+				685BAC1B1BF0A912003FF65A /* aaltjeschrMess2.png */,
+				685BAC1C1BF0A912003FF65A /* aaltjeschrMess1.png */,
+			);
+			name = schreiersimages;
+			sourceTree = "<group>";
+		};
+		68DF0F861BC68B9500464392 /* Scheepskameel */ = {
+			isa = PBXGroup;
+			children = (
+				68DF86A51BC69805001CB687 /* Images scheepskameel */,
+				68DF86AE1BC6A83B001CB687 /* naarScheepskameelViewController.swift */,
+				68E14C901B9DD80C00C295D2 /* scheepsAudioViewController.swift */,
+				68DF0F7E1BC6643200464392 /* ScheepskameelAnimationViewController.swift */,
+				68E14C881B9DC29300C295D2 /* scheepskameelViewController.swift */,
+				68E14C841B9D928700C295D2 /* ScheepskameelMultipleChoiceController.swift */,
+			);
+			name = Scheepskameel;
+			sourceTree = "<group>";
+		};
+		68DF36641BA307DB009D5141 /* hangmangroup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = hangmangroup;
+			sourceTree = "<group>";
+		};
+		68DF86A51BC69805001CB687 /* Images scheepskameel */ = {
+			isa = PBXGroup;
+			children = (
+				68E0DEE01BF3478400B79CC6 /* reis1.png */,
+				68E0DEE61BF354A700B79CC6 /* barendtkameel1.png */,
+				68E0DEE71BF354A700B79CC6 /* barendtkameel3.png */,
+				68E0DEE81BF354A700B79CC6 /* barendtkameel2.png */,
+				687EC55C1BCE553C00062644 /* scheeps1.png */,
+				687EC55D1BCE553C00062644 /* scheeps2.png */,
+				687EC55E1BCE553C00062644 /* scheeps3.png */,
+				68E0DEE21BF34BD000B79CC6 /* scheepskameel1.png */,
+			);
+			name = "Images scheepskameel";
+			sourceTree = "<group>";
+		};
+		68DF86B01BC7B3E9001CB687 /* Galgenveld */ = {
+			isa = PBXGroup;
+			children = (
+				68DF86B51BC7C29C001CB687 /* Images galgenveld */,
+				68DF86B11BC7B5A8001CB687 /* mapGalgenveldViewController.swift */,
+				68DF86B31BC7C164001CB687 /* GalgenveldViewController.swift */,
+				68DF36621BA307B9009D5141 /* hangmanViewController.swift */,
+			);
+			name = Galgenveld;
+			sourceTree = "<group>";
+		};
+		68DF86B51BC7C29C001CB687 /* Images galgenveld */ = {
+			isa = PBXGroup;
+			children = (
+				68E051D21BDACA380070FDC3 /* hang1.png */,
+				68E051D31BDACA380070FDC3 /* hang2.png */,
+				68E051D41BDACA380070FDC3 /* hang3.png */,
+				68E051D51BDACA380070FDC3 /* hang4.png */,
+				68E051D61BDACA380070FDC3 /* hang5.png */,
+				68E051D71BDACA380070FDC3 /* hang6.png */,
+				68E051D81BDACA380070FDC3 /* hang7.png */,
+				68DF86B61BC7C44B001CB687 /* galgveld3.jpg */,
+				68DF86B71BC7C44B001CB687 /* galgveld2.jpg */,
+				68DF86B81BC7C44B001CB687 /* galgveld1.jpg */,
+			);
+			name = "Images galgenveld";
+			sourceTree = "<group>";
+		};
+		68DF86BE1BC7D81D001CB687 /* DeAmsterdam */ = {
+			isa = PBXGroup;
+			children = (
+				68DC21091C2174280026209A /* Roeienriemen4.png */,
+				680360AD1C1EC98100E2B6DA /* Roeienriemen3.png */,
+				680360AF1C1ECA2100E2B6DA /* roeien riemen2.jpg */,
+				687EC54B1BCD1D1A00062644 /* amsterdam1.jpg */,
+				68DE162A1BFA0F99005B20CC /* amsterdam1.png */,
+				68DE162B1BFA0F99005B20CC /* amsterdam2.png */,
+				687EC54D1BCD1D1A00062644 /* amsterdam2.jpg */,
+				68DC210B1C2177D70026209A /* bestestuurlui2.png */,
+				68DC21071C216EC00026209A /* bestestuurlui.png */,
+				68DF86BC1BC7D7EC001CB687 /* naarDeamsterdamViewController.swift */,
+				6898E64E1BCD12440072DE05 /* deAmsterdamViewController.swift */,
+				6898E6401BCBD5660072DE05 /* GezegdeRadenViewController.swift */,
+				68DD79661C46C3550040C8DF /* Gezegde2Fout.swift */,
+				68DD79641C46C1440040C8DF /* GezegdeAntw2GoedViewController.swift */,
+				6898E6461BCBF9F40072DE05 /* tweedeGezegdeViewController.swift */,
+				68DD79681C47A3E60040C8DF /* GezegdeAntw2VC.swift */,
+				68DF86BF1BCBAB9E001CB687 /* GezegdeCameraViewController.swift */,
+				6898E63E1BCBBE420072DE05 /* gezegdeFotoViewController.swift */,
+			);
+			name = DeAmsterdam;
+			sourceTree = "<group>";
+		};
+		68E050811BD0FD6B0070FDC3 /* Oosterkerk */ = {
+			isa = PBXGroup;
+			children = (
+				68E051671BD6893A0070FDC3 /* oosterkerk2.jpg */,
+				68E051681BD6893A0070FDC3 /* oosterkerk3.jpg */,
+				68E051691BD6893A0070FDC3 /* oosterkerk1.jpg */,
+				68E0507F1BD0FD4A0070FDC3 /* naarOosterkerkViewController.swift */,
+				68E050821BD100070070FDC3 /* oosterkerkUitlegViewController.swift */,
+				68E0516D1BD68A600070FDC3 /* oosterkerkOpdrachtViewController.swift */,
+			);
+			name = Oosterkerk;
+			sourceTree = "<group>";
+		};
+		68E051711BD6BE410070FDC3 /* Entrepot */ = {
+			isa = PBXGroup;
+			children = (
+				68E051B71BDA74080070FDC3 /* imgaes */,
+				68E0516F1BD6BE210070FDC3 /* NaarEntrepotViewController.swift */,
+				68E051721BD6C2530070FDC3 /* entrpotUitlegViewController.swift */,
+				68DF36481BA05901009D5141 /* EntrepotOpdrachtViewController.swift */,
+			);
+			name = Entrepot;
+			sourceTree = "<group>";
+		};
+		68E051761BD8C9A10070FDC3 /* Hortus */ = {
+			isa = PBXGroup;
+			children = (
+				68A2D0F61C05DDF700A29438 /* italy.gif */,
+				68A2D0F71C05DDF700A29438 /* nederland.jpg */,
+				68A2D0F81C05DDF700A29438 /* iran.jpg */,
+				68A2D0F91C05DDF700A29438 /* ethiopia.jpg */,
+				68E0DF061BF4D0FC00B79CC6 /* koffie3.jpg */,
+				68E0DF071BF4D0FC00B79CC6 /* koffie2.png */,
+				68E0DF081BF4D0FC00B79CC6 /* koffie1.jpg */,
+				68E0DF001BF4C9BA00B79CC6 /* hortus2.jpg */,
+				68E0DF011BF4C9BA00B79CC6 /* hortus1.jpg */,
+				68E051741BD8C98F0070FDC3 /* naarHortusViewController.swift */,
+				68BCCE461BDE657200C14ED4 /* HortusuitlegViewController.swift */,
+				68E0DF041BF4CC4300B79CC6 /* hortusOpdrachtViewController.swift */,
+			);
+			name = Hortus;
+			sourceTree = "<group>";
+		};
+		68E051B71BDA74080070FDC3 /* imgaes */ = {
+			isa = PBXGroup;
+			children = (
+				68E051B81BDA74330070FDC3 /* entrepot3.jpg */,
+				68E40CA21C34179E0003B1E5 /* emoticonFout.png */,
+				68E40CA31C34179E0003B1E5 /* emoticonGoed.png */,
+				68E051B91BDA74330070FDC3 /* entrepot2.jpg */,
+				68E051BA1BDA74330070FDC3 /* entrepot1.jpg */,
+			);
+			name = imgaes;
+			sourceTree = "<group>";
+		};
+		68E0DEEC1BF35A9000B79CC6 /* Inleiding */ = {
+			isa = PBXGroup;
+			children = (
+				68E0DEE41BF34F4000B79CC6 /* beginViewController.swift */,
+				68E0DEED1BF35EA900B79CC6 /* Dam2.png */,
+				68E0DEEE1BF35EA900B79CC6 /* Dam1.png */,
+				68E0DEEF1BF35EA900B79CC6 /* Dam3.png */,
+			);
+			name = Inleiding;
+			sourceTree = "<group>";
+		};
+		68E0DEFB1BF3CCE100B79CC6 /* textLabels */ = {
+			isa = PBXGroup;
+			children = (
+				68E0DEFC1BF3CD2500B79CC6 /* textLabel.swift */,
+				680360A91C1AFA2C00E2B6DA /* textGroter.swift */,
+			);
+			name = textLabels;
+			sourceTree = "<group>";
+		};
+		68E0DF0E1BF8BC4000B79CC6 /* messLabel */ = {
+			isa = PBXGroup;
+			children = (
+				68E0DF0F1BF8BC8D00B79CC6 /* messLabel.swift */,
+			);
+			name = messLabel;
+			sourceTree = "<group>";
+		};
 		68E14BA31B984AC300C295D2 = {
 			isa = PBXGroup;
 			children = (
+				6818A0861BC27219009D26B9 /* libsqlite3.tbd */,
+				6818A0841BC271FA009D26B9 /* SystemConfiguration.framework */,
+				6818A0821BC271E8009D26B9 /* StoreKit.framework */,
+				6818A0801BC271DA009D26B9 /* Security.framework */,
+				6818A07E1BC271D3009D26B9 /* QuartzCore.framework */,
+				6818A07C1BC271BB009D26B9 /* MobileCoreServices.framework */,
+				6818A07A1BC271AC009D26B9 /* libz.tbd */,
+				6818A0781BC27190009D26B9 /* CFNetwork.framework */,
+				6818A0761BC2717E009D26B9 /* AudioToolbox.framework */,
+				6818A0681BC2708A009D26B9 /* Bolts.framework */,
+				6818A0691BC2708A009D26B9 /* Parse.framework */,
+				6818A06A1BC2708A009D26B9 /* ParseCrashReporting.framework */,
+				6818A06B1BC2708A009D26B9 /* ParseFacebookUtils.framework */,
+				6818A06C1BC2708A009D26B9 /* ParseFacebookUtilsV4.framework */,
+				6818A06D1BC2708A009D26B9 /* ParseTwitterUtils.framework */,
+				6818A06E1BC2708A009D26B9 /* ParseUI.framework */,
+				68A0D73E1BB3507F0077ECF2 /* CoreGraphics.framework */,
+				68E2463F1BB01730005842B7 /* MapKit.framework */,
+				68E14C7C1B988F9B00C295D2 /* CoreLocation.framework */,
+				68E14BE51B98672D00C295D2 /* AVFoundation.framework */,
 				68E14BAE1B984AC300C295D2 /* Protobarendt */,
 				68E14BC61B984AC300C295D2 /* ProtobarendtTests */,
 				68E14BD11B984AC300C295D2 /* ProtobarendtUITests */,
@@ -100,11 +1200,40 @@
 			isa = PBXGroup;
 			children = (
 				68E14BAF1B984AC300C295D2 /* AppDelegate.swift */,
-				68E14BB11B984AC300C295D2 /* ViewController.swift */,
-				68E14BB31B984AC300C295D2 /* Main.storyboard */,
+				68E050841BD12CBD0070FDC3 /* beginSchermViewController.swift */,
+				68AB21801BE699F200C8E37C /* benedenbalk01.png */,
+				68411FDC1C04D27A00DD2D9D /* Algemeen AV */,
+				68A2D0FE1C062C9600A29438 /* BarendtMess */,
+				68DE16231BF9F573005B20CC /* Messgriet */,
+				68411FD71C04C79700DD2D9D /* AaltjeMess */,
+				68E0DF0E1BF8BC4000B79CC6 /* messLabel */,
+				68E0DEFB1BF3CCE100B79CC6 /* textLabels */,
+				684571891C11B42300650349 /* routeAanwijzing */,
+				687BB90F1BF256AB002937F1 /* distanceLabel */,
+				687BB90C1BF24751002937F1 /* scoreLabeltje */,
+				687BB9071BF23BED002937F1 /* ShadedButton */,
+				684571841C11A8FC00650349 /* Helper functions */,
+				68E0DEEC1BF35A9000B79CC6 /* Inleiding */,
+				6818A0881BC274BC009D26B9 /* Damrak */,
+				6818A0891BC27512009D26B9 /* Aepjen */,
+				68DF0F701BC4179500464392 /* Schreierstoren */,
+				68DF86B01BC7B3E9001CB687 /* Galgenveld */,
+				68DF0F861BC68B9500464392 /* Scheepskameel */,
+				68DF86BE1BC7D81D001CB687 /* DeAmsterdam */,
+				687EC5511BCD215600062644 /* Scheepvaartmuseum */,
+				68E050811BD0FD6B0070FDC3 /* Oosterkerk */,
+				68DF86A61BC69C80001CB687 /* Main.storyboard */,
+				68E40CBA1C3A9A2C0003B1E5 /* EindschermViewController.swift */,
+				68E051711BD6BE410070FDC3 /* Entrepot */,
+				68E051761BD8C9A10070FDC3 /* Hortus */,
+				68BCCE2C1BDE21F500C14ED4 /* sluiswacht */,
+				685BAC071BF0A197003FF65A /* liefdesbrug */,
+				68DE16321BFA1F30005B20CC /* Oostindisch huis */,
 				68E14BB91B984AC300C295D2 /* Assets.xcassets */,
 				68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */,
 				68E14BBE1B984AC300C295D2 /* Info.plist */,
+				68E14C761B98845300C295D2 /* Audio */,
+				68E14C771B98846400C295D2 /* Images */,
 				68E14BB61B984AC300C295D2 /* Protobarendt.xcdatamodeld */,
 			);
 			path = Protobarendt;
@@ -126,6 +1255,62 @@
 				68E14BD41B984AC300C295D2 /* Info.plist */,
 			);
 			path = ProtobarendtUITests;
+			sourceTree = "<group>";
+		};
+		68E14C761B98845300C295D2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				684867531BB6B1AB00C0A92B /* ting.wav */,
+				68E14C741B9883E100C295D2 /* Damrakaudio.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		68E14C771B98846400C295D2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				68E245FA1BA982AC005842B7 /* locationIconKlein.png */,
+				68E245FC1BA985DF005842B7 /* doelLocatieIcon.png */,
+				68DF36641BA307DB009D5141 /* hangmangroup */,
+				68E14C921B9EF08200C295D2 /* hourglassnew8.png */,
+				68E14C931B9EF08200C295D2 /* hourglassnew7.png */,
+				68E14CA21B9EF0E200C295D2 /* hourglassnew6.png */,
+				68E14C951B9EF08200C295D2 /* hourglassnew5.png */,
+				68E14C961B9EF08200C295D2 /* hourglassnew4.png */,
+				68E14C971B9EF08200C295D2 /* hourglassnew3.png */,
+				68E14C981B9EF08200C295D2 /* hourglassnew2.png */,
+				68E14C991B9EF08200C295D2 /* hourglassnew1.png */,
+				68DF36521BA068A0009D5141 /* go-button-1934443.png */,
+				68E14C801B9D825700C295D2 /* flag.jpg */,
+				68E9B0B71BBC093C004BA7A3 /* Damschavot3Gr.png */,
+				68E14C8A1B9DC53700C295D2 /* scheepskameel.png */,
+				68E14C8E1B9DD0D300C295D2 /* scheepskameelfoto.jpg */,
+				68E14C861B9DB03B00C295D2 /* barendt.png */,
+				68DF36561BA1C06B009D5141 /* schedelboring.jpg */,
+				684867551BB6CB7800C0A92B /* background2.jpg */,
+				68E14C821B9D86AB00C295D2 /* flagblue.jpg */,
+				68DF36581BA1C080009D5141 /* kompres.jpg */,
+				684867571BB6CCB600C0A92B /* background6.jpg */,
+				68E9B0BC1BBC2B54004BA7A3 /* paleisDam.jpg */,
+				68E9B0B51BBC0139004BA7A3 /* Damschavot2.png */,
+				684867581BB6CCB600C0A92B /* background5.jpg */,
+				689D93C41BB976A000D98060 /* Damschavotbig.jpg */,
+				689D93C51BB976A000D98060 /* Damschavotclose.jpg */,
+				68E9B0BE1BBC2C2C004BA7A3 /* vangoghschavot.jpg */,
+				684867591BB6CCB600C0A92B /* background4.jpg */,
+				68D549931BA70CEE00599702 /* galgenveld.jpg */,
+				68DF36591BA1C080009D5141 /* spalken.jpg */,
+				68DF365A1BA1C080009D5141 /* amputatie.jpg */,
+				68DF365B1BA1C080009D5141 /* dichtbranden.jpg */,
+				68DF365C1BA1C080009D5141 /* aderlaten.gif */,
+				68DF364E1BA066A3009D5141 /* gobutto.jpg */,
+				68DF36501BA066B7009D5141 /* gobut.jpg */,
+				68DF364C1BA06445009D5141 /* go_button.png */,
+				68E14C721B9881D800C295D2 /* achtergrond.png */,
+				68E14CA61BA044FB00C295D2 /* startbutton.png */,
+				68DF36461BA04EA6009D5141 /* stopbutton.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +1380,12 @@
 				TargetAttributes = {
 					68E14BAB1B984AC300C295D2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6SJ668L4Y9;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					68E14BC21B984AC300C295D2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,9 +1422,206 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DF9BE61C1827C5004CF456 /* Peper.jpg in Resources */,
+				684571911C11D4E700650349 /* cheering.mp3 in Resources */,
+				68E0DF021BF4C9BA00B79CC6 /* hortus2.jpg in Resources */,
+				68E051941BD8D9000070FDC3 /* location15.png in Resources */,
+				68E40CB91C3A8CD10003B1E5 /* winst2Nieuw.png in Resources */,
+				68411FD01C046FCC00DD2D9D /* Aaltje.mp3 in Resources */,
+				684867541BB6B1AB00C0A92B /* ting.wav in Resources */,
+				68E40C991C33D2C30003B1E5 /* aepjenMess3.png in Resources */,
+				68E0DF091BF4D0FC00B79CC6 /* koffie3.jpg in Resources */,
+				68A2D10D1C07559200A29438 /* indisch2.jpg in Resources */,
+				687EC5601BCE553C00062644 /* scheeps2.png in Resources */,
+				689D940D1BB997F400D98060 /* damrak3.jpg in Resources */,
+				68E051A21BD8D9000070FDC3 /* location1.png in Resources */,
+				68DF365E1BA1C080009D5141 /* spalken.jpg in Resources */,
+				68A2D1021C062CE200A29438 /* barendtMessView.xib in Resources */,
+				68E40C931C33D0C30003B1E5 /* aepjenMess1.png in Resources */,
+				68E2FC6A1C5267FC00E7EDCF /* vraag2.png in Resources */,
+				68A2D10E1C07559200A29438 /* indisch1.jpg in Resources */,
+				68E0DF0B1BF4D0FC00B79CC6 /* koffie1.jpg in Resources */,
+				68AB21721BE153E200C8E37C /* balk01.png in Resources */,
 				68E14BBD1B984AC300C295D2 /* LaunchScreen.storyboard in Resources */,
+				680360B01C1ECA2100E2B6DA /* roeien riemen2.jpg in Resources */,
+				68E14C751B9883E100C295D2 /* Damrakaudio.mp3 in Resources */,
+				68A2D1061C07304E00A29438 /* balloons.png in Resources */,
+				68E14CA01B9EF08200C295D2 /* hourglassnew2.png in Resources */,
+				68E245FD1BA985DF005842B7 /* doelLocatieIcon.png in Resources */,
+				68DF86BB1BC7C44B001CB687 /* galgveld1.jpg in Resources */,
+				68E0DEFF1BF4AC0C00B79CC6 /* glazen2.jpg in Resources */,
+				68E0DEF11BF35EA900B79CC6 /* Dam1.png in Resources */,
+				68DF36611BA1C080009D5141 /* aderlaten.gif in Resources */,
+				6848675C1BB6CCB600C0A92B /* background4.jpg in Resources */,
+				68DE162F1BFA14DF005B20CC /* kaneelst.jpg in Resources */,
+				68E40CB31C3A7E660003B1E5 /* winst1.png in Resources */,
+				68411FD41C047DFD00DD2D9D /* Aaltje.png in Resources */,
+				687EC55F1BCE553C00062644 /* scheeps1.png in Resources */,
+				68E0DEF61BF3764800B79CC6 /* aaltjeschrGoed.png in Resources */,
+				68E0519B1BD8D9000070FDC3 /* location8.png in Resources */,
+				685BAC1E1BF0A912003FF65A /* aaltjeschrMess3.png in Resources */,
+				68BCCE331BDE2F1100C14ED4 /* sluys3.jpg in Resources */,
+				68E051971BD8D9000070FDC3 /* location12.png in Resources */,
+				685BAC0F1BF0A2E9003FF65A /* brugMess1.jpg in Resources */,
+				685BABDC1BEA4EB2003FF65A /* woosh.wav in Resources */,
+				68AB21821BE699F200C8E37C /* benedenbalk01.png in Resources */,
+				68DD79741C4D1BFF0040C8DF /* damSchavot.jpg in Resources */,
+				68E150FC1C3FF59D0018A910 /* vraag1.png in Resources */,
+				685BABEB1BEA9640003FF65A /* api3.png in Resources */,
+				689D93C61BB976A000D98060 /* Damschavotbig.jpg in Resources */,
+				685BABF91BEA9DDA003FF65A /* teamnaam1.png in Resources */,
+				68DF364D1BA06445009D5141 /* go_button.png in Resources */,
+				68E051BB1BDA74330070FDC3 /* entrepot3.jpg in Resources */,
+				68E1DA451BF0B85E008F4A25 /* Schatkist.png in Resources */,
+				68E0DEF81BF3778400B79CC6 /* aaltjeschrFout.png in Resources */,
+				68E14C9A1B9EF08200C295D2 /* hourglassnew8.png in Resources */,
 				68E14BBA1B984AC300C295D2 /* Assets.xcassets in Resources */,
-				68E14BB51B984AC300C295D2 /* Main.storyboard in Resources */,
+				68DF9BEC1C182D25004CF456 /* Nootmuskaat.jpg in Resources */,
+				685BAC101BF0A2E9003FF65A /* staalmeestersbrug.jpg in Resources */,
+				6845718F1C11BD4B00650349 /* win.wav in Resources */,
+				68A2D1041C062E5000A29438 /* barendtLeeg.png in Resources */,
+				68E0DEDF1BF33FE500B79CC6 /* schreiers1.png in Resources */,
+				68E0DEE11BF3478400B79CC6 /* reis1.png in Resources */,
+				68E1A1B51BDE1CD800427385 /* locationgedaan1.png in Resources */,
+				68DF86A71BC69C80001CB687 /* Main.storyboard in Resources */,
+				685BABFA1BEA9DDA003FF65A /* teamnaam2.png in Resources */,
+				68E051DC1BDACA380070FDC3 /* hang4.png in Resources */,
+				685BABEE1BEA9640003FF65A /* api1.png in Resources */,
+				68E051991BD8D9000070FDC3 /* location10.png in Resources */,
+				685BAC201BF0A912003FF65A /* aaltjeschrMess1.png in Resources */,
+				685BABFB1BEA9DDA003FF65A /* teamfoto2.png in Resources */,
+				68E051DB1BDACA380070FDC3 /* hang3.png in Resources */,
+				6848675A1BB6CCB600C0A92B /* background6.jpg in Resources */,
+				68DF365F1BA1C080009D5141 /* amputatie.jpg in Resources */,
+				6845718D1C11BCBD00650349 /* error.wav in Resources */,
+				68E14C871B9DB03B00C295D2 /* barendt.png in Resources */,
+				68E051BD1BDA74330070FDC3 /* entrepot1.jpg in Resources */,
+				689D940C1BB997F400D98060 /* damrak2.jpg in Resources */,
+				68AB21741BE176C900C8E37C /* balk011.png in Resources */,
+				68411FD11C046FCC00DD2D9D /* Barendt.mp3 in Resources */,
+				685BAC0D1BF0A2E9003FF65A /* brugMess3.jpg in Resources */,
+				68AB21851BE6B7EE00C8E37C /* aaltjeZiek1.jpg in Resources */,
+				68DC21061C216BD30026209A /* pijlrechts.png in Resources */,
+				68E0DEEA1BF354A700B79CC6 /* barendtkameel3.png in Resources */,
+				68E051921BD8D9000070FDC3 /* location17.png in Resources */,
+				68E0DEFA1BF37AA800B79CC6 /* scheurbuik.png in Resources */,
+				68DF36601BA1C080009D5141 /* dichtbranden.jpg in Resources */,
+				68E051A01BD8D9000070FDC3 /* location3.png in Resources */,
+				68E150F81C3FF58D0018A910 /* vraag21.png in Resources */,
+				680360AE1C1EC98100E2B6DA /* Roeienriemen3.png in Resources */,
+				68E0519C1BD8D9000070FDC3 /* location7.png in Resources */,
+				68DF9BE01C1823AC004CF456 /* Kaneel.jpg in Resources */,
+				68BCCE341BDE2F1100C14ED4 /* sluys2.jpg in Resources */,
+				684867561BB6CB7800C0A92B /* background2.jpg in Resources */,
+				68E051DD1BDACA380070FDC3 /* hang5.png in Resources */,
+				68E14CA11B9EF08200C295D2 /* hourglassnew1.png in Resources */,
+				68E40C951C33D0C30003B1E5 /* aepjenMess5.png in Resources */,
+				68DE16291BF9F6AD005B20CC /* grietMessView.xib in Resources */,
+				68411FD61C04C60A00DD2D9D /* basisAaltje.png in Resources */,
+				68E0518D1BD8D9000070FDC3 /* locationgedaan.png in Resources */,
+				68E9B0B81BBC093C004BA7A3 /* Damschavot3Gr.png in Resources */,
+				68E14C811B9D825700C295D2 /* flag.jpg in Resources */,
+				68E0DEEB1BF354A700B79CC6 /* barendtkameel2.png in Resources */,
+				68E150F91C3FF58D0018A910 /* vraag22.png in Resources */,
+				68E0DF0D1BF8BC0E00B79CC6 /* grietLeeg.png in Resources */,
+				68AB21831BE699F200C8E37C /* bovenbalk01.png in Resources */,
+				68DF86B91BC7C44B001CB687 /* galgveld3.jpg in Resources */,
+				6848675B1BB6CCB600C0A92B /* background5.jpg in Resources */,
+				68DF36511BA066B7009D5141 /* gobut.jpg in Resources */,
+				68DC210C1C2177D70026209A /* bestestuurlui2.png in Resources */,
+				68DE162D1BFA0F99005B20CC /* amsterdam2.png in Resources */,
+				687EC5501BCD1D1A00062644 /* amsterdam2.jpg in Resources */,
+				68A2D0FD1C05DDF700A29438 /* ethiopia.jpg in Resources */,
+				68E151001C3FF8780018A910 /* vraag111.png in Resources */,
+				68E051981BD8D9000070FDC3 /* location11.png in Resources */,
+				68E051DF1BDACA380070FDC3 /* hang7.png in Resources */,
+				68E14C8F1B9DD0D300C295D2 /* scheepskameelfoto.jpg in Resources */,
+				68E9B0BF1BBC2C2C004BA7A3 /* vangoghschavot.jpg in Resources */,
+				68DC21081C216EC00026209A /* bestestuurlui.png in Resources */,
+				68E14C9F1B9EF08200C295D2 /* hourglassnew3.png in Resources */,
+				68DE162C1BFA0F99005B20CC /* amsterdam1.png in Resources */,
+				68E0DF0A1BF4D0FC00B79CC6 /* koffie2.png in Resources */,
+				68E150F71C3FF58D0018A910 /* vraag13.png in Resources */,
+				68BCCE351BDE2F1100C14ED4 /* sluys1.jpg in Resources */,
+				68E40C9F1C33D58A0003B1E5 /* grietMessage.png in Resources */,
+				68E0516A1BD6893A0070FDC3 /* oosterkerk2.jpg in Resources */,
+				68DC210A1C2174280026209A /* Roeienriemen4.png in Resources */,
+				68AB21871BE6CEAC00C8E37C /* messSound.wav in Resources */,
+				68E051BC1BDA74330070FDC3 /* entrepot2.jpg in Resources */,
+				68E0516B1BD6893A0070FDC3 /* oosterkerk3.jpg in Resources */,
+				68E051DA1BDACA380070FDC3 /* hang2.png in Resources */,
+				68E40CA51C34179E0003B1E5 /* emoticonGoed.png in Resources */,
+				68E051A61BDA3BC50070FDC3 /* aaltje.jpg in Resources */,
+				68E40C9B1C33D2F50003B1E5 /* aepjenMess2.png in Resources */,
+				684571931C11DD6200650349 /* lose.mp3 in Resources */,
+				68E150FA1C3FF58D0018A910 /* vraag23.png in Resources */,
+				68E051D91BDACA380070FDC3 /* hang1.png in Resources */,
+				685BABFC1BEA9DDA003FF65A /* teamfoto1.png in Resources */,
+				68DF9BE81C182841004CF456 /* Foelie.jpg in Resources */,
+				68A2D0FB1C05DDF700A29438 /* nederland.jpg in Resources */,
+				68E14C9B1B9EF08200C295D2 /* hourglassnew7.png in Resources */,
+				685BABF41BEA97DA003FF65A /* api4.png in Resources */,
+				68E40CB41C3A7E660003B1E5 /* verlies2.png in Resources */,
+				68E051931BD8D9000070FDC3 /* location16.png in Resources */,
+				68E0516C1BD6893A0070FDC3 /* oosterkerk1.jpg in Resources */,
+				68E14CA71BA044FB00C295D2 /* startbutton.png in Resources */,
+				68A2D0FA1C05DDF700A29438 /* italy.gif in Resources */,
+				68E0518F1BD8D9000070FDC3 /* location20.png in Resources */,
+				68E40CA41C34179E0003B1E5 /* emoticonFout.png in Resources */,
+				687EC5611BCE553C00062644 /* scheeps3.png in Resources */,
+				68DF364F1BA066A3009D5141 /* gobutto.jpg in Resources */,
+				68DD79711C4D10750040C8DF /* paleis1.jpeg in Resources */,
+				68DF86BA1BC7C44B001CB687 /* galgveld2.jpg in Resources */,
+				68E051961BD8D9000070FDC3 /* location13.png in Resources */,
+				68A2D0FC1C05DDF700A29438 /* iran.jpg in Resources */,
+				68E9B0BD1BBC2B54004BA7A3 /* paleisDam.jpg in Resources */,
+				68E0DEF21BF35EA900B79CC6 /* Dam3.png in Resources */,
+				68E9B0B61BBC0139004BA7A3 /* Damschavot2.png in Resources */,
+				68DF365D1BA1C080009D5141 /* kompres.jpg in Resources */,
+				68E051951BD8D9000070FDC3 /* location14.png in Resources */,
+				68E0DEE31BF34BD000B79CC6 /* scheepskameel1.png in Resources */,
+				68E0DEF01BF35EA900B79CC6 /* Dam2.png in Resources */,
+				68E0519A1BD8D9000070FDC3 /* location9.png in Resources */,
+				68DE16831BFCCEA4005B20CC /* kleinstehuis.jpg in Resources */,
+				68E0519F1BD8D9000070FDC3 /* location4.png in Resources */,
+				689D93C71BB976A000D98060 /* Damschavotclose.jpg in Resources */,
+				68E051901BD8D9000070FDC3 /* location19.png in Resources */,
+				68BCCECB1BE1136200C14ED4 /* balk.png in Resources */,
+				68E14C831B9D86AB00C295D2 /* flagblue.jpg in Resources */,
+				68DF36571BA1C06B009D5141 /* schedelboring.jpg in Resources */,
+				68AB21711BE153E200C8E37C /* balk02.png in Resources */,
+				68DF36471BA04EA6009D5141 /* stopbutton.png in Resources */,
+				68E14CA31B9EF0E200C295D2 /* hourglassnew6.png in Resources */,
+				68E051911BD8D9000070FDC3 /* location18.png in Resources */,
+				68E14C9E1B9EF08200C295D2 /* hourglassnew4.png in Resources */,
+				68E1DA431BF0B1C4008F4A25 /* aaltjeslotMess1.png in Resources */,
+				68E245FB1BA982AC005842B7 /* locationIconKlein.png in Resources */,
+				685BAC0E1BF0A2E9003FF65A /* brugMess2.jpg in Resources */,
+				68E40CA11C33D6C70003B1E5 /* api5.png in Resources */,
+				68E14C9D1B9EF08200C295D2 /* hourglassnew5.png in Resources */,
+				68E0519E1BD8D9000070FDC3 /* location5.png in Resources */,
+				68DF9BEA1C182B10004CF456 /* Gember.jpg in Resources */,
+				68E0DEE91BF354A700B79CC6 /* barendtkameel1.png in Resources */,
+				68E0519D1BD8D9000070FDC3 /* location6.png in Resources */,
+				685BAC1F1BF0A912003FF65A /* aaltjeschrMess2.png in Resources */,
+				68DF9BE51C1827C5004CF456 /* Kruidnagel.jpg in Resources */,
+				68411FD91C04C7E100DD2D9D /* aaltjeMessView.xib in Resources */,
+				68411FD21C046FCC00DD2D9D /* Griet.mp3 in Resources */,
+				685BABEC1BEA9640003FF65A /* api2.png in Resources */,
+				687EC54E1BCD1D1A00062644 /* amsterdam1.jpg in Resources */,
+				68E150F61C3FF58D0018A910 /* vraag12.png in Resources */,
+				687EC5591BCD2CB900062644 /* glazen3.jpg in Resources */,
+				68E051A11BD8D9000070FDC3 /* location2.png in Resources */,
+				68E051DE1BDACA380070FDC3 /* hang6.png in Resources */,
+				68E40C941C33D0C30003B1E5 /* aepjenMess4.png in Resources */,
+				68E40CB51C3A7E660003B1E5 /* verlies1.png in Resources */,
+				689D940B1BB997F400D98060 /* damrak1.jpg in Resources */,
+				68E14C8B1B9DC53700C295D2 /* scheepskameel.png in Resources */,
+				68E0DEF41BF3730A00B79CC6 /* barendtziek.png in Resources */,
+				68E0DF031BF4C9BA00B79CC6 /* hortus1.jpg in Resources */,
+				68E14C731B9881D800C295D2 /* achtergrond.png in Resources */,
+				68D549941BA70CEE00599702 /* galgenveld.jpg in Resources */,
+				68DF36531BA068A0009D5141 /* go-button-1934443.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +1646,81 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E14BB21B984AC300C295D2 /* ViewController.swift in Sources */,
+				6898E64F1BCD12440072DE05 /* deAmsterdamViewController.swift in Sources */,
+				68E14C851B9D928700C295D2 /* ScheepskameelMultipleChoiceController.swift in Sources */,
+				68E0DF051BF4CC4300B79CC6 /* hortusOpdrachtViewController.swift in Sources */,
+				68A2D1001C062CC900A29438 /* barendtMessView.swift in Sources */,
+				68DE16311BFA1EFD005B20CC /* MapOostindischViewController.swift in Sources */,
+				6898E6471BCBF9F40072DE05 /* tweedeGezegdeViewController.swift in Sources */,
+				68411FDB1C04C85900DD2D9D /* aaltjeMessView.swift in Sources */,
+				68DD79691C47A3E60040C8DF /* GezegdeAntw2VC.swift in Sources */,
+				68DD796B1C4D0A920040C8DF /* Antwoord1DamViewController.swift in Sources */,
+				68A0D7411BB406670077ECF2 /* CameraOpdrachtViewController.swift in Sources */,
+				68BCCE371BDE302F00C14ED4 /* opdrachtSluysViewController.swift in Sources */,
+				68DF86AF1BC6A83B001CB687 /* naarScheepskameelViewController.swift in Sources */,
+				68BCCE3F1BDE449700C14ED4 /* opdracht2SluysViewController.swift in Sources */,
+				68E0516E1BD68A600070FDC3 /* oosterkerkOpdrachtViewController.swift in Sources */,
+				68E050801BD0FD4A0070FDC3 /* naarOosterkerkViewController.swift in Sources */,
+				6898E6411BCBD5660072DE05 /* GezegdeRadenViewController.swift in Sources */,
+				68BCCE2B1BDE21B100C14ED4 /* naarSluiswachtViewController.swift in Sources */,
+				68E40CB71C3A89AF0003B1E5 /* WinViewController.swift in Sources */,
+				68E14C911B9DD80C00C295D2 /* scheepsAudioViewController.swift in Sources */,
+				68E051751BD8C98F0070FDC3 /* naarHortusViewController.swift in Sources */,
+				685BAC061BF09DF6003FF65A /* LiefdesbrugViewController.swift in Sources */,
+				68E051A41BDA325F0070FDC3 /* ChirurgijnViewController.swift in Sources */,
+				68DD796D1C4D0AC70040C8DF /* Antwoord2DamViewController.swift in Sources */,
+				68DF36631BA307B9009D5141 /* hangmanViewController.swift in Sources */,
+				68E2356C1C4E928B0097D29B /* alertExt.swift in Sources */,
+				68DE16271BF9F680005B20CC /* grietMessView.swift in Sources */,
+				68E14C7B1B9887B700C295D2 /* DamrakMapViewController.swift in Sources */,
+				68E0DF101BF8BC8D00B79CC6 /* messLabel.swift in Sources */,
+				68DD79671C46C3550040C8DF /* Gezegde2Fout.swift in Sources */,
+				6818A0961BC2B617009D26B9 /* TeamnaamViewController.swift in Sources */,
+				68A0D7371BB164AF0077ECF2 /* TestjeViewController.swift in Sources */,
+				68DE167F1BFC9277005B20CC /* UitlegOostindischViewController.swift in Sources */,
+				68E0DEE51BF34F4000B79CC6 /* beginViewController.swift in Sources */,
+				68DF36491BA05901009D5141 /* EntrepotOpdrachtViewController.swift in Sources */,
+				687BB9091BF23C6E002937F1 /* opmaakButton.swift in Sources */,
+				68DD79651C46C1440040C8DF /* GezegdeAntw2GoedViewController.swift in Sources */,
+				68E14C891B9DC29300C295D2 /* scheepskameelViewController.swift in Sources */,
+				687BB90E1BF24781002937F1 /* ScoreLabeltje.swift in Sources */,
+				68DE16871BFCD105005B20CC /* loseViewController.swift in Sources */,
+				687EC5551BCD264100062644 /* glazenUitlegViewController.swift in Sources */,
+				68DF86B41BC7C164001CB687 /* GalgenveldViewController.swift in Sources */,
+				68DF0F721BC4190D00464392 /* MapSchreiersViewController.swift in Sources */,
+				68AB21791BE3A12600C8E37C /* uitlegPaleisViewController.swift in Sources */,
+				68E051731BD6C2530070FDC3 /* entrpotUitlegViewController.swift in Sources */,
+				68E9B0BA1BBC2151004BA7A3 /* DamopdrachtTweeViewController.swift in Sources */,
+				68E050851BD12CBD0070FDC3 /* beginSchermViewController.swift in Sources */,
+				68E051701BD6BE210070FDC3 /* NaarEntrepotViewController.swift in Sources */,
+				684867521BB5743B00C0A92B /* NaarHetDamrakViewController.swift in Sources */,
+				68DF86BD1BC7D7EC001CB687 /* naarDeamsterdamViewController.swift in Sources */,
+				6845718B1C11B46600650349 /* routeAanwijzing.swift in Sources */,
+				689D940F1BBACCF000D98060 /* DamrakOpdrachtViewController.swift in Sources */,
+				68DF86B21BC7B5A8001CB687 /* mapGalgenveldViewController.swift in Sources */,
+				68BCCE471BDE657200C14ED4 /* HortusuitlegViewController.swift in Sources */,
+				68E1DA491BF0F24F008F4A25 /* liefdesMapViewController.swift in Sources */,
+				68DE16811BFCABBA005B20CC /* laatsteOpdrachtViewController.swift in Sources */,
+				68DF0F741BC5285C00464392 /* SchreiersViewController.swift in Sources */,
+				687BB9111BF256D3002937F1 /* distanceLabeltje.swift in Sources */,
+				68BCCE2E1BDE25FB00C14ED4 /* uitlegSluyswachtViewController.swift in Sources */,
+				68DF0F651BC3C1E000464392 /* PuntenAepjenViewController.swift in Sources */,
 				68E14BB01B984AC300C295D2 /* AppDelegate.swift in Sources */,
 				68E14BB81B984AC300C295D2 /* Protobarendt.xcdatamodeld in Sources */,
+				68E2FC271C4F9FE500E7EDCF /* proefjes.swift in Sources */,
+				68E0DEFD1BF3CD2500B79CC6 /* textLabel.swift in Sources */,
+				68E1DA471BF0B885008F4A25 /* brugOpdrachtViewController.swift in Sources */,
+				68DF36551BA1BAC5009D5141 /* schreiersOpdrachtViewController.swift in Sources */,
+				68E050831BD100070070FDC3 /* oosterkerkUitlegViewController.swift in Sources */,
+				684571881C11A96700650349 /* MyPlayer.swift in Sources */,
+				68E14CA51B9EF65600C295D2 /* GlazenslaanTimerViewController.swift in Sources */,
+				68E40CBB1C3A9A2C0003B1E5 /* EindschermViewController.swift in Sources */,
+				68DF86C01BCBAB9E001CB687 /* GezegdeCameraViewController.swift in Sources */,
+				68A2D10A1C07517600A29438 /* overOostindischViewController.swift in Sources */,
+				680360AA1C1AFA2C00E2B6DA /* textGroter.swift in Sources */,
+				6898E63F1BCBBE420072DE05 /* gezegdeFotoViewController.swift in Sources */,
+				68DF0F7F1BC6643200464392 /* ScheepskameelAnimationViewController.swift in Sources */,
+				687EC5531BCD21C100062644 /* naarScheepvaartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +1756,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		68E14BB31B984AC300C295D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68E14BB41B984AC300C295D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68E14BBB1B984AC300C295D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,7 +1792,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -351,7 +1803,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -384,13 +1836,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,10 +1855,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Protobarendt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.Protobarendt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +1873,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Protobarendt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.Protobarendt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -487,6 +1955,7 @@
 				68E14BD91B984AC300C295D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E14BDA1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +1964,7 @@
 				68E14BDC1B984AC300C295D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E14BDD1B984AC300C295D2 /* Build configuration list for PBXNativeTarget "ProtobarendtUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +1973,7 @@
 				68E14BDF1B984AC300C295D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

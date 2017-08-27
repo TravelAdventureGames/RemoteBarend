@@ -9,6 +9,9 @@
 import UIKit
 import CoreData
 
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,7 +20,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // Zorgt voor de vraag aan user of hij notificatie wil ontvangen
+        UIApplication.sharedApplication().registerUserNotificationSettings(
+            UIUserNotificationSettings(
+                forTypes: [.Alert, .Badge, .Sound],
+                categories: (nil)))
+        
+        let shadow: NSShadow = NSShadow()
+        shadow.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.2)
+        shadow.shadowOffset = CGSizeMake(2, 2)
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "bovenbalk01.png")!.resizableImageWithCapInsets(UIEdgeInsetsMake(0, 0, 0, 0), resizingMode: .Stretch), forBarMetrics: .Default)
+        UINavigationBar.appearance().tintColor = UIColor.blackColor() //maakt back en forward barbuttons black
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSFontAttributeName: UIFont(name: "Cochin-bolditalic", size: 22)!,
+        ]
+       //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()
+        
+        // maakt barbutton item bold en geeft lettertype
+        let customFont = UIFont(name: "Damascusbold", size: 18.0)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: customFont!], forState: UIControlState.Normal)
+
+
+
+        
+
+        UIToolbar.appearance().setBackgroundImage(UIImage(named: "benedenbalk01.png")!.resizableImageWithCapInsets(UIEdgeInsetsMake(0, 0, 0, 0), resizingMode: .Stretch), forToolbarPosition: .Bottom, barMetrics: .Default)
+
+        
         return true
+
     }
 
     func applicationWillResignActive(application: UIApplication) {
